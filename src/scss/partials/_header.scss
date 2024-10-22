@@ -1,0 +1,56 @@
+.header {
+    background-color: $primary-color-dark;
+    padding: 1rem;
+    text-align: center;
+
+    nav {
+        ul {
+            li {
+                list-style-type: none;
+                .nav-link {
+                    text-decoration: none;
+                    color: $primary-color-light;
+                    @include responsive(mobile) {
+                        color: $primary-color-dark;
+                    }
+
+                    &:hover {
+                        color: $secondary-color-dark;
+                    }
+                }
+
+                .active-link {
+                    color: $secondary-color-dark;
+                }
+
+            }
+
+
+        }
+    }
+  
+    // Estilos para móviles
+    @include responsive(mobile) {
+      background-color: $primary-color-light;
+      padding: 0.5rem;
+      font-size: 1rem;
+    }
+  
+    // Estilos para escritorio pequeño
+    @include responsive(small-desktop) {
+      padding: 1.5rem;
+      font-size: 1.2rem;
+    }
+  
+    // Estilos para escritorio mediano
+    @include responsive(medium-desktop) {
+      padding: 2rem;
+      font-size: 1.4rem;
+    }
+  
+    // Estilos para escritorio grande
+    @include responsive(large-desktop) {
+      padding: 3rem;
+      font-size: 1.6rem;
+    }
+  }

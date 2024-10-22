@@ -1,0 +1,81 @@
+// Importar mixins y variables
+@import 'partials/variables';
+@import 'partials/mixins';
+@import 'partials/header';
+@import 'partials/footer';
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: $primary-color-light;
+
+  .container {
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  h1 {
+    color: $primary-color-dark;
+    font-size: 3.5rem;
+  }
+
+  h2 {
+    font-size: 2.5rem;
+  }
+
+  h3 {
+    font-size: 2rem;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+}
+
+button {
+  background: $secondary-color-dark;
+  color: $secondary-color-light;
+  border: none;
+  position: relative;
+  padding: 0.5rem 1rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: 800ms ease all;
+  outline: none;
+  margin: 0 0.3rem;
+  text-align: center;
+
+  &:hover {
+    background: $secondary-color-light;
+    color: $secondary-color-dark;
+  }
+
+  &::before,
+  &::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 2px;
+    width: 0;
+    background: $secondary-color-dark;
+    transition: 400ms ease all;
+  }
+
+  &::after {
+    right: inherit;
+    top: inherit;
+    left: 0;
+    bottom: 0;
+  }
+
+  &:hover::before,
+  &:hover::after {
+    width: 100%;
+    transition: 800ms ease all;
+  }
+}
