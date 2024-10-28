@@ -584,11 +584,72 @@ function hmrAccept(bundle /*: ParcelRequire */ , id /*: string */ ) {
 }
 
 },{}],"8lRBv":[function(require,module,exports) {
+//código para marcar la opción de navegación donde se encuentra el usuario en cada momento
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "restaurantes", ()=>restaurantes);
+var _dataJson = require("../data.json");
+var _dataJsonDefault = parcelHelpers.interopDefault(_dataJson);
 const pathname = window.location.pathname;
 const navLinks = document.querySelectorAll(".nav-link");
 navLinks.forEach((link)=>{
     if (link.getAttribute("href") === pathname) link.classList.add("active-link");
 });
+//Función onclick redirección
+window.redirect = function(page) {
+    window.location.href = `${page}.html`;
+};
+//Obtención data para las categorías
+const rutas = (0, _dataJsonDefault.default).rutas;
+const restaurantes = (0, _dataJsonDefault.default).restaurantes;
+const eventos = (0, _dataJsonDefault.default).eventos;
+const instalaciones = (0, _dataJsonDefault.default).instalaciones;
+const listaRestaurantes = document.getElementById("restaurantes");
+console.log(listaRestaurantes);
+for (let restaurante of restaurantes){
+    const img = document.createElement("img");
+    img.src = `../src/img/${restaurante.img}`;
+    listaRestaurantes.appendChild(img);
+    const title = document.createElement("h3");
+    title.textContent = restaurante.title;
+    listaRestaurantes.appendChild(title);
+    const description = document.createElement("p");
+    description.textContent = restaurante.description;
+    listaRestaurantes.appendChild(description);
+}
+
+},{"../data.json":"aLYkf","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"aLYkf":[function(require,module,exports) {
+module.exports = JSON.parse('{"rutas":[{"img":"img_ruta1.jpg","title":"","description":""},{"img":"img_ruta2.jpg","title":"","description":""},{"img":"img_ruta3.jpg","title":"","description":""}],"restaurantes":[{"img":"img_can_virgili.jpg","title":"Can Virgili","description":"Es una hipica donde preparan comida a la brasa"},{"img":"img_font_moreu.jpg","title":"Ca l\'Andreu","description":""},{"img":"img_casal.jpeg","title":"El Casal del Poble","description":""},{"img":"img_can_virgili.jpg","title":"La Font de Can Moreu","description":""},{"img":"img_can_virgili.jpg","title":"Els Fogons del Xeremell","description":""}],"eventos":[{"img":"img_evento1.jpg","title":"","description":""},{"img":"img_evento2.jpg","title":"","description":""},{"img":"img_evento3.jpg","title":"","description":""}],"instalaciones":[]}');
+
+},{}],"gkKU3":[function(require,module,exports) {
+exports.interopDefault = function(a) {
+    return a && a.__esModule ? a : {
+        default: a
+    };
+};
+exports.defineInteropFlag = function(a) {
+    Object.defineProperty(a, "__esModule", {
+        value: true
+    });
+};
+exports.exportAll = function(source, dest) {
+    Object.keys(source).forEach(function(key) {
+        if (key === "default" || key === "__esModule" || Object.prototype.hasOwnProperty.call(dest, key)) return;
+        Object.defineProperty(dest, key, {
+            enumerable: true,
+            get: function() {
+                return source[key];
+            }
+        });
+    });
+    return dest;
+};
+exports.export = function(dest, destName, get) {
+    Object.defineProperty(dest, destName, {
+        enumerable: true,
+        get: get
+    });
+};
 
 },{}]},["aP7aF","8lRBv"], "8lRBv", "parcelRequire3333")
 

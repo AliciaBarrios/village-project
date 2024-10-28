@@ -1,6 +1,6 @@
 {
   "name": "village-project",
-  "source": "src/index.html",
+  "source": "src/pages/index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "clean": "rimraf dist .parcel-cache",

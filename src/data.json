@@ -1,0 +1,66 @@
+{
+    "rutas": [
+        {
+            "img": "img_ruta1.jpg",
+            "title": "",
+            "description": ""
+        },
+        {
+            "img": "img_ruta2.jpg",
+            "title": "",
+            "description": ""
+        },
+        {
+            "img": "img_ruta3.jpg",
+            "title": "",
+            "description": ""
+        }
+    ],
+    "restaurantes": [
+        {
+            "img": "img_can_virgili.jpg",
+            "title": "Can Virgili",
+            "description": "Es una hipica donde preparan comida a la brasa"
+        },
+        {
+            "img": "img_font_moreu.jpg",
+            "title": "Ca l'Andreu",
+            "description": ""
+        },
+        {
+            "img": "img_casal.jpeg",
+            "title": "El Casal del Poble",
+            "description": ""
+        },
+        {
+            "img": "img_can_virgili.jpg",
+            "title": "La Font de Can Moreu",
+            "description": ""
+        },
+        {
+            "img": "img_can_virgili.jpg",
+            "title": "Els Fogons del Xeremell",
+            "description": ""
+        }
+    ],
+    "eventos": [
+        {
+            "img": "img_evento1.jpg",
+            "title": "",
+            "description": ""
+        },
+        {
+            "img": "img_evento2.jpg",
+            "title": "",
+            "description": ""
+        },
+        {
+            "img": "img_evento3.jpg",
+            "title": "",
+            "description": ""
+        }
+    ],
+    "instalaciones": [
+
+    ]
+}
