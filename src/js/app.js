@@ -27,7 +27,7 @@ console.log(listaRestaurantes);
 
 for(let restaurante of restaurantes) {
     const img = document.createElement('img');
-    img.src = `../src/img/${restaurante.img}`;
+    img.src = `./../src/img/${restaurante.img}`;
     listaRestaurantes.appendChild(img);
 
     const title = document.createElement('h3');
