@@ -18,26 +18,31 @@
     ],
     "restaurantes": [
         {
+            "id": 1,
             "img": "img_can_virgili.jpg",
             "title": "Can Virgili",
             "description": "Es una hipica donde preparan comida a la brasa"
         },
         {
+            "id": 2,
             "img": "img_font_moreu.jpg",
             "title": "Ca l'Andreu",
             "description": ""
         },
         {
+            "id": 3,
             "img": "img_casal.jpeg",
             "title": "El Casal del Poble",
             "description": ""
         },
         {
+            "id": 4,
             "img": "img_can_virgili.jpg",
             "title": "La Font de Can Moreu",
             "description": ""
         },
         {
+            "id": 5,
             "img": "img_can_virgili.jpg",
             "title": "Els Fogons del Xeremell",
             "description": ""

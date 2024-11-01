@@ -13,30 +13,3 @@ navLinks.forEach(link => {
 window.redirect = function(page) {
     window.location.href=`${page}.html`;
 }
-
-import data from '../data.json';
-
-//Obtención data para las categorías
-const rutas = data.rutas;
-export const restaurantes = data.restaurantes;
-const eventos = data.eventos;
-const instalaciones = data.instalaciones;
-
-const listaRestaurantes = document.getElementById('restaurantes');
-console.log(listaRestaurantes);
-
-for(let restaurante of restaurantes) {
-    const img = document.createElement('img');
-    img.src = `./../src/img/${restaurante.img}`;
-    listaRestaurantes.appendChild(img);
-
-    const title = document.createElement('h3');
-    title.textContent = restaurante.title;
-    listaRestaurantes.appendChild(title);
-
-    const description = document.createElement('p');
-    description.textContent = restaurante.description;
-    listaRestaurantes.appendChild(description);
-}
-
-
