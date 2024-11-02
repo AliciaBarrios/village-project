@@ -123,5 +123,18 @@ button {
   }
 }
 
+.nav-link {
+  text-decoration: none;
+  color: $primary-color-dark;
+
+  &:hover {
+      color: $secondary-color-dark;
+  }
+}
+
+.active-link {
+  color: $secondary-color-dark;
+}
+
 
 
