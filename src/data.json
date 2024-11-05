@@ -33,9 +33,18 @@
             "id": 1,
             "img": "imgCanVirgili",
             "title": "Can Virgili",
-            "description": "Es una hipica donde preparan comida a la brasa",
-            "schedule": "",
-            "direction": ""
+            "description": "Es un restaurant de montanya, situat al corredor del Montnegre, pel que està ubicat en una zona rodejada de naturalesa. Es tracta d'una hipica i el restaurant es un lloc acollidor i rústic especialitzats en carns a la brassa.",
+            "schedule": {
+                "dilluns": "Tancat",
+                "dimarts": "Tancat",
+                "dimecres": "Tancat",
+                "dijous": "Tancat",
+                "divendres": "Tancat",
+                "dissabte": "9:00-23:30",
+                "diumenge": "9:00-17:00"
+            },
+            "direction": "Can Virgili, 1, 08471, Vallgorguina",
+            "phone": "938 67 92 82"
         },
         {
             "id": 2,
@@ -74,20 +83,26 @@
         {
             "id": 1,
             "img": "img_evento1",
-            "title": "",
+            "title": "La festa de la Pagesia",
             "description": "",
-            "date": "",
-            "hour": "",
-            "direction": ""
+            "date": {
+                "inici": "23-11-2024",
+                "fi": "24-11-2024"
+            },
+            "hour": "Tot el dia",
+            "direction": "Carrer de l'Església, 13, 08471, Vallgorguina"
         },
         {
             "id": 2,
             "img": "img_evento2",
-            "title": "",
+            "title": "Festa Major de Vallgorguina",
             "description": "",
-            "date": "",
-            "hour": "",
-            "direction": ""
+            "date": {
+                "inici": "20-09-2024",
+                "fi": "24-09-2024"
+            },
+            "hour": "Tot el dia",
+            "direction": "Vallgorguina, consultar programa"
         },
         {
             "id": 3,
@@ -103,10 +118,18 @@
         {
             "id": 1,
             "img": "img_evento1",
-            "title": "",
+            "title": "Dinàmic Pàdel Indoor",
             "description": "",
-            "schedule": "",
-            "direction": ""
+            "schedule": {
+                "dilluns": "9:00-23:00",
+                "dimarts": "9:00-23:00",
+                "dimecres": "9:00-23:00",
+                "dijous": "9:00-23:00",
+                "divendres": "9:00-23:00",
+                "dissabte": "9:00-21:00",
+                "diumenge": "9:00-21:00"
+            },
+            "direction": "Polígon Industrial el Molinot, SN, 08471, Vallgorguina"
         },
         {
             "id": 2,

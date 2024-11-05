@@ -19,25 +19,24 @@ function showItems(categoryId) {
     const container = document.getElementById(categoryId);
     const items = data[categoryId];
     let content = '';
-
-    console.log(items);
-
+    
     items.forEach(item => {
         content += `
-            <a href="./detalle?categoria=${categoryId}&id=${item.id}"><div class="targeta">
-                <div class="multimedia">
-                    <img src="${images[item.img]}">
+            <a href="./detalle?categoria=${categoryId}&id=${item.id}">
+                <div class="targeta">
+                    <div class="multimedia">
+                        <img src="${images[item.img]}">
+                    </div>
+                    <div class="texto">
+                        <h3>${item.title}</h3>
+                        <p>${item.description}</p>
+                    </div>
                 </div>
-                <div class="texto">
-                    <h3>${item.title}</h3>
-                    <p>${item.description}</p>
-                </div>
-            </div></a>
+            </a>
         `;
     });
     container.innerHTML = content;
 }
-
 function toggleOptions(categoryId, event) {
     const options = document.getElementById(categoryId);
     const currentContainer = event.currentTarget;
