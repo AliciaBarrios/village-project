@@ -1,19 +1,31 @@
 {
     "rutas": [
         {
+            "id": 1,
             "img": "img_ruta1",
-            "title": "",
-            "description": ""
+            "title": "Cap a la Vall veïna d'Olzinelles",
+            "description": "",
+            "distance": "",
+            "elevation": "",
+            "time": ""
         },
         {
+            "id": 2,
             "img": "img_ruta2",
-            "title": "",
-            "description": ""
+            "title": "El Dolmen de la Pedra Gentil",
+            "description": "",
+            "distance": "",
+            "elevation": "",
+            "time": ""
         },
         {
+            "id": 3,
             "img": "img_ruta3",
-            "title": "",
-            "description": ""
+            "title": "Santuari del Corredor des de Vallgorguina",
+            "description": "",
+            "distance": "",
+            "elevation": "",
+            "time": ""
         }
     ],
     "restaurantes": [
@@ -21,51 +33,96 @@
             "id": 1,
             "img": "imgCanVirgili",
             "title": "Can Virgili",
-            "description": "Es una hipica donde preparan comida a la brasa"
+            "description": "Es una hipica donde preparan comida a la brasa",
+            "schedule": "",
+            "direction": ""
         },
         {
             "id": 2,
             "img": "imgAndreu",
             "title": "Ca l'Andreu",
-            "description": ""
+            "description": "Es un bar de tapas del pueblo",
+            "schedule": "",
+            "direction": ""
         },
         {
             "id": 3,
             "img": "imgCasal",
             "title": "El Casal del Poble",
-            "description": ""
+            "description": "",
+            "schedule": "",
+            "direction": ""
         },
         {
             "id": 4,
             "img": "imgFontMoreu",
             "title": "La Font de Can Moreu",
-            "description": ""
+            "description": "",
+            "schedule": "",
+            "direction": ""
         },
         {
             "id": 5,
             "img": "imgFogonsXeremell",
             "title": "Els Fogons del Xeremell",
-            "description": ""
+            "description": "",
+            "schedule": "",
+            "direction": ""
         }
     ],
     "eventos": [
         {
+            "id": 1,
             "img": "img_evento1",
             "title": "",
-            "description": ""
+            "description": "",
+            "date": "",
+            "hour": "",
+            "direction": ""
         },
         {
+            "id": 2,
             "img": "img_evento2",
             "title": "",
-            "description": ""
+            "description": "",
+            "date": "",
+            "hour": "",
+            "direction": ""
         },
         {
+            "id": 3,
             "img": "img_evento3",
             "title": "",
-            "description": ""
+            "description": "",
+            "date": "",
+            "hour": "",
+            "direction": ""
         }
     ],
     "instalaciones": [
-
+        {
+            "id": 1,
+            "img": "img_evento1",
+            "title": "",
+            "description": "",
+            "schedule": "",
+            "direction": ""
+        },
+        {
+            "id": 2,
+            "img": "img_evento2",
+            "title": "",
+            "description": "",
+            "schedule": "",
+            "direction": ""
+        },
+        {
+            "id": 3,
+            "img": "img_evento3",
+            "title": "",
+            "description": "",
+            "schedule": "",
+            "direction": ""
+        }
     ]
 }

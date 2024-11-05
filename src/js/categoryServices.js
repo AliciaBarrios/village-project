@@ -1,5 +1,20 @@
 import data from '../data.json';
 
+//Importación imágenes
+import imgCanVirgili from '../assets/img_can_virgili.jpg';
+import imgCasal from '../assets/img_casal.jpeg';
+import imgFontMoreu from '../assets/img_font_moreu.jpg';
+import imgAndreu from '../assets/img_andreu.jpg';
+import imgFogonsXeremell from '../assets/img_fogons_xeremell.jpg';
+
+const images = {
+    'imgCanVirgili': imgCanVirgili,
+    'imgCasal': imgCasal,
+    'imgFontMoreu': imgFontMoreu,
+    'imgAndreu': imgAndreu,
+    'imgFogonsXeremell': imgFogonsXeremell
+}
+
 function showItems(categoryId) {
     const container = document.getElementById(categoryId);
     const items = data[categoryId];
@@ -9,15 +24,15 @@ function showItems(categoryId) {
 
     items.forEach(item => {
         content += `
-            <div class="targeta">
+            <a href="./detalle?categoria=${categoryId}&id=${item.id}"><div class="targeta">
                 <div class="multimedia">
-                    <img src="../assets/img_can_virgili.jpg">
+                    <img src="${images[item.img]}">
                 </div>
                 <div class="texto">
-                    <a href="./detalle?categoria=${categoryId}&id=${item.id}"><h3>${item.title}</h3></a>
+                    <h3>${item.title}</h3>
                     <p>${item.description}</p>
                 </div>
-            </div>
+            </div></a>
         `;
     });
     container.innerHTML = content;
