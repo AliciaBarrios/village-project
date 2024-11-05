@@ -1,3 +1,17 @@
+//Importación imágenes
+import imgCanVirgili from '../assets/img_can_virgili.jpg';
+import imgCasal from '../assets/img_casal.jpeg';
+import imgFontMoreu from '../assets/img_font_moreu.jpg';
+import imgAndreu from '../assets/img_andreu.jpg';
+import imgFogonsXeremell from '../assets/img_fogons_xeremell.jpg';
+
+const images = {
+    'imgCanVirgili': imgCanVirgili,
+    'imgCasal': imgCasal,
+    'imgFontMoreu': imgFontMoreu,
+    'imgAndreu': imgAndreu,
+    'imgFogonsXeremell': imgFogonsXeremell
+}
 //Obtención data para las categorías
 import data from '../data.json';
 
@@ -13,9 +27,7 @@ function loadInterestPoint(interestPoint) {
     document.getElementById('breadcrumbs').innerHTML = `<a href="./categorias.html" class="nav-link">Categorías</a> > <a href="#" class="nav-link active-link">${interestPoint.title}</a>`;
     document.getElementById('title').textContent = interestPoint.title;
     document.getElementById('description').textContent = interestPoint.description;
-
-    const imageUrl = new URL(`../../public/img/${interestPoint.img}`, import.meta.url);
-    document.getElementById('img').src = imageUrl;
+    document.getElementById('img').src = images[interestPoint.img];
 }
 
 

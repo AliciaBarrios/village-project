@@ -1,3 +1,4 @@
+import '@fortawesome/fontawesome-free/css/all.min.css';
 
 //código para marcar la opción de navegación donde se encuentra el usuario en cada momento
 const pathname = window.location.pathname;

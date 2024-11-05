@@ -6,65 +6,105 @@
     <title>Document</title>
     <link rel="stylesheet" href="./../scss/main.scss"/>
     <script type="module" src="./../js/app.js" defer></script>
+    <script type="module" src="./../js/categoryServices.js" defer></script>
 </head>
-<body>
+<body class="categories">
     <include src="./header.html"></include>
     <div class="container">
         <h1>Categorías</h1>
-        <h2>Restaurantes</h2>
-        <div class="container-targetas">
-            <div class="targeta">
-                <div class="multimedia">
-                    <img src="../../public/img/img_can_virgili.jpg">
+        <ul>
+            <li onclick="toggleOptions('restaurantes', event)">
+                <div class="desplegable" >
+                    <h2>Restaurantes</h2>
+                    <i class="fas fa-chevron-down icon" ></i>
                 </div>
-                <div class="texto">
-                    <a href="./detalle?categoria=restaurantes&id=1"><h3>Can Virgili</h3></a>
-                    <p>Es una hipica que cocinan carne a la brasa</p>
-                </div>
-            </div>
 
-            <div class="targeta">
-                <div class="multimedia">
-                    <img src="../../public/img/img_font_moreu.jpg">
+                <div class="container-targetas" id="restaurantes">
+                    <div class="targeta">
+                        <div class="multimedia">
+                            <img src="../assets/img_can_virgili.jpg">
+                        </div>
+                        <div class="texto">
+                            <a href="./detalle?categoria=restaurantes&id=1"><h3>Can Virgili</h3></a>
+                            <p>Es una hipica que cocinan carne a la brasa</p>
+                        </div>
+                    </div>
+        
+                    <div class="targeta">
+                        <div class="multimedia">
+                            <img src="../assets/img_andreu.jpg">
+                        </div>
+                        <div class="texto">
+                            <a href="./detalle?categoria=restaurantes&id=2"><h3>Ca l'Andreu</h3></a>
+                            <p>Es una hipica que cocinan carne a la brasa</p>
+                        </div>
+                    </div>
+        
+                    <div class="targeta">
+                        <div class="multimedia">
+                            <img src="../assets/img_casal.jpeg">
+                        </div>
+                        <div class="texto">
+                            <a href="./detalle?categoria=restaurantes&id=3"><h3>El Casal del Poble</h3></a>
+                            <p>Es una hipica que cocinan carne a la brasa</p>
+                        </div>
+                    </div>
+        
+                    <div class="targeta">
+                        <div class="multimedia">
+                            <img src="../assets/img_font_moreu.jpg">
+                        </div>
+                        <div class="texto">
+                            <a href="./detalle?categoria=restaurantes&id=4"><h3>La Font de Can Moreu</h3></a>
+                            <p>Es una hipica que cocinan carne a la brasa</p>
+                        </div>
+                    </div>
+        
+                    <div class="targeta">
+                        <div class="multimedia">
+                            <img src="../assets/img_fogons_xeremell.jpg">
+                        </div>
+                        <div class="texto">
+                            <a href="./detalle?categoria=restaurantes&id=5"><h3>Els Fogons del Xeremell</h3></a>
+                            <p>Es una hipica que cocinan carne a la brasa</p>
+                        </div>
+                    </div>
                 </div>
-                <div class="texto">
-                    <a href="./detalle?categoria=restaurantes&id=2"><h3>Ca l'Andreu</h3></a>
-                    <p>Es una hipica que cocinan carne a la brasa</p>
-                </div>
-            </div>
+            </li>
 
-            <div class="targeta">
-                <div class="multimedia">
-                    <img src="../../public/img/img_casal.jpeg">
+            <li onclick="toggleOptions('rutas',event)">
+                <div class="desplegable">
+                    <h2>Rutas</h2>
+                    <i class="fas fa-chevron-down icon"></i>
                 </div>
-                <div class="texto">
-                    <a href="./detalle?categoria=restaurantes&id=3"><h3>El Casal del Poble</h3></a>
-                    <p>Es una hipica que cocinan carne a la brasa</p>
-                </div>
-            </div>
 
-            <div class="targeta">
-                <div class="multimedia">
-                    <img src="../../public/img/img_can_virgili.jpg">
+                <div class="container-targetas" id="rutas">
+                    <div class="targeta">
+                        <div class="multimedia">
+                            <img src="../assets/img_can_virgili.jpg">
+                        </div>
+                        <div class="texto">
+                            <a href="./detalle?categoria=restaurantes&id=1"><h3>Can Virgili</h3></a>
+                            <p>Es una hipica que cocinan carne a la brasa</p>
+                        </div>
+                    </div>
                 </div>
-                <div class="texto">
-                    <a href="./detalle?categoria=restaurantes&id=4"><h3>La Font de Can Moreu</h3></a>
-                    <p>Es una hipica que cocinan carne a la brasa</p>
+            </li>
+    
+            <li onclick="toggleOptions('eventos',event)">
+                <div class="desplegable">
+                    <h2>Eventos</h2>
+                    <i class="fas fa-chevron-down icon"></i>
                 </div>
-            </div>
-
-            <div class="targeta">
-                <div class="multimedia">
-                    <img src="../../public/img/img_can_virgili.jpg">
+            </li>
+    
+            <li onclick="toggleOptions('instalaciones',event)">
+                <div class="desplegable">
+                    <h2>Instalaciones</h2>
+                    <i class="fas fa-chevron-down icon"></i>
                 </div>
-                <div class="texto">
-                    <a href="./detalle?categoria=restaurantes&id=5"><h3>Els Fogons del Xeremell</h3></a>
-                    <p>Es una hipica que cocinan carne a la brasa</p>
-                </div>
-            </div>
-        </div>
-
-        <h2>Rutas</h2>
+            </li>
+        </ul>
     </div>
 </body>
 </html>

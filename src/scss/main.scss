@@ -5,6 +5,7 @@
 @import 'partials/mixins';
 @import 'partials/header';
 @import 'partials/portada';
+@import 'partials/categories';
 @import 'partials/footer';
 
 *,
@@ -90,39 +91,6 @@ button {
   }
 }
 
-.container-targetas {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 2rem; 
-
-  .targeta {
-    display: flex;
-    flex-direction: column;
-    border-radius: 30px;
-    background-color: white;
-    margin: 2rem;
-    overflow: hidden;
-    height: 500px;
-
-    .multimedia {
-      display: flex;
-      justify-content: center;
-      height: 350px;
-
-      img {
-        width: 100%;
-        height: auto;
-        border-radius: inherit;
-      }
-    }
-
-    .texto {
-      margin: 1rem;
-    }
-
-  }
-}
-
 .nav-link {
   text-decoration: none;
   color: $primary-color-dark;
@@ -135,6 +103,5 @@ button {
 .active-link {
   color: $secondary-color-dark;
 }
-
 
 

@@ -1,17 +1,17 @@
 {
     "rutas": [
         {
-            "img": "img_ruta1.jpg",
+            "img": "img_ruta1",
             "title": "",
             "description": ""
         },
         {
-            "img": "img_ruta2.jpg",
+            "img": "img_ruta2",
             "title": "",
             "description": ""
         },
         {
-            "img": "img_ruta3.jpg",
+            "img": "img_ruta3",
             "title": "",
             "description": ""
         }
@@ -19,48 +19,48 @@
     "restaurantes": [
         {
             "id": 1,
-            "img": "img_can_virgili.jpg",
+            "img": "imgCanVirgili",
             "title": "Can Virgili",
             "description": "Es una hipica donde preparan comida a la brasa"
         },
         {
             "id": 2,
-            "img": "img_font_moreu.jpg",
+            "img": "imgAndreu",
             "title": "Ca l'Andreu",
             "description": ""
         },
         {
             "id": 3,
-            "img": "img_casal.jpeg",
+            "img": "imgCasal",
             "title": "El Casal del Poble",
             "description": ""
         },
         {
             "id": 4,
-            "img": "img_can_virgili.jpg",
+            "img": "imgFontMoreu",
             "title": "La Font de Can Moreu",
             "description": ""
         },
         {
             "id": 5,
-            "img": "img_can_virgili.jpg",
+            "img": "imgFogonsXeremell",
             "title": "Els Fogons del Xeremell",
             "description": ""
         }
     ],
     "eventos": [
         {
-            "img": "img_evento1.jpg",
+            "img": "img_evento1",
             "title": "",
             "description": ""
         },
         {
-            "img": "img_evento2.jpg",
+            "img": "img_evento2",
             "title": "",
             "description": ""
         },
         {
-            "img": "img_evento3.jpg",
+            "img": "img_evento3",
             "title": "",
             "description": ""
         }
