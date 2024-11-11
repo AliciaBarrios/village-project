@@ -5,6 +5,7 @@
             "img": "img_ruta1",
             "title": "Cap a la Vall veïna d'Olzinelles",
             "description": "",
+            "shortDescription":"",
             "distance": "",
             "elevation": "",
             "time": ""
@@ -14,6 +15,7 @@
             "img": "img_ruta2",
             "title": "El Dolmen de la Pedra Gentil",
             "description": "",
+            "shortDescription":"",
             "distance": "",
             "elevation": "",
             "time": ""
@@ -23,6 +25,7 @@
             "img": "img_ruta3",
             "title": "Santuari del Corredor des de Vallgorguina",
             "description": "",
+            "shortDescription":"",
             "distance": "",
             "elevation": "",
             "time": ""
@@ -33,7 +36,8 @@
             "id": 1,
             "img": "imgCanVirgili",
             "title": "Can Virgili",
-            "description": "Es un restaurant de montanya, situat al corredor del Montnegre, pel que està ubicat en una zona rodejada de naturalesa. Es tracta d'una hipica i el restaurant es un lloc acollidor i rústic especialitzats en carns a la brassa.",
+            "description": "Es un restaurant de muntanya, situat al corredor del Montnegre, pel que està ubicat en una zona rodejada de naturalesa. Es tracta d'una hipica i el restaurant es un lloc acollidor i rústic especialitzats en carns a la brassa.",
+            "shortDescription": "Restaurant de muntanya situat en un entorn natural espectacular. Especialitzats ens carns a la brassa.",
             "schedule": {
                 "dilluns": "Tancat",
                 "dimarts": "Tancat",
@@ -51,6 +55,7 @@
             "img": "imgAndreu",
             "title": "Ca l'Andreu",
             "description": "Es un bar de tapas del pueblo",
+            "shortDescription":"",
             "schedule": "",
             "direction": ""
         },
@@ -59,6 +64,7 @@
             "img": "imgCasal",
             "title": "El Casal del Poble",
             "description": "",
+            "shortDescription":"",
             "schedule": "",
             "direction": ""
         },
@@ -67,6 +73,7 @@
             "img": "imgFontMoreu",
             "title": "La Font de Can Moreu",
             "description": "",
+            "shortDescription":"",
             "schedule": "",
             "direction": ""
         },
@@ -75,6 +82,7 @@
             "img": "imgFogonsXeremell",
             "title": "Els Fogons del Xeremell",
             "description": "",
+            "shortDescription":"",
             "schedule": "",
             "direction": ""
         }
@@ -85,6 +93,7 @@
             "img": "img_evento1",
             "title": "La festa de la Pagesia",
             "description": "",
+            "shortDescription":"",
             "date": {
                 "inici": "23-11-2024",
                 "fi": "24-11-2024"
@@ -97,6 +106,7 @@
             "img": "img_evento2",
             "title": "Festa Major de Vallgorguina",
             "description": "",
+            "shortDescription":"",
             "date": {
                 "inici": "20-09-2024",
                 "fi": "24-09-2024"
@@ -109,6 +119,7 @@
             "img": "img_evento3",
             "title": "",
             "description": "",
+            "shortDescription":"",
             "date": "",
             "hour": "",
             "direction": ""
@@ -120,6 +131,7 @@
             "img": "img_evento1",
             "title": "Dinàmic Pàdel Indoor",
             "description": "",
+            "shortDescription":"",
             "schedule": {
                 "dilluns": "9:00-23:00",
                 "dimarts": "9:00-23:00",
@@ -136,6 +148,7 @@
             "img": "img_evento2",
             "title": "",
             "description": "",
+            "shortDescription":"",
             "schedule": "",
             "direction": ""
         },
@@ -144,6 +157,7 @@
             "img": "img_evento3",
             "title": "",
             "description": "",
+            "shortDescription":"",
             "schedule": "",
             "direction": ""
         }

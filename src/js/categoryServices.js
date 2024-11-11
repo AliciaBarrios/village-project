@@ -21,14 +21,14 @@ function showItems(categoryId) {
     
     container.innerHTML = items
     .map(item => `
-        <a href="./detalle.html?categoria=${categoryId}&id=${item.id}">
+        <a href="./detalle?categoria=${categoryId}&id=${item.id}">
             <div class="targeta">
                 <div class="multimedia">
                     <img src="${images[item.img]}" alt="${item.img}">
                 </div>
                 <div class="texto">
                     <h3>${item.title}</h3>
-                    <p>${item.description}</p>
+                    <p>${item.shortDescription}</p>
                 </div>
             </div>
         </a>

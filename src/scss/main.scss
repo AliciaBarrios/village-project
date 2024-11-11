@@ -7,6 +7,7 @@
 @import 'partials/portada';
 @import 'partials/categories';
 @import 'partials/details';
+@import 'partials/presentacion';
 @import 'partials/footer';
 
 *,
@@ -44,7 +45,7 @@ body {
   }
 
   p {
-    font-size: 1rem;
+    font-size: 1.4rem;
   }
 }
 
