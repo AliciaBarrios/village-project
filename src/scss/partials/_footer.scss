@@ -1,0 +1,57 @@
+.footer {
+    background-color: $primary-color-dark;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+  
+    .legal-links, 
+    .social-networks {
+      ul {
+        display: flex;
+        li {
+          list-style-type: none;
+          margin-right: 1rem;
+          
+          .footer-link {
+            text-decoration: none;
+            color: $primary-color-light;
+            @include responsive(mobile) {
+                color: $primary-color-dark;
+            }
+  
+            &:hover {
+                color: $secondary-color-dark;
+            }
+          }
+  
+          .active-link {
+            color: $secondary-color-dark;
+          }
+        }
+      }
+    }
+  
+    // Estilos para móviles
+    @include responsive(mobile) {
+      padding: 0.5rem;
+      font-size: 1rem;
+    }
+  
+    // Estilos para escritorio pequeño
+    @include responsive(small-desktop) {
+      padding: 1.5rem;
+      font-size: 1.2rem;
+    }
+  
+    // Estilos para escritorio mediano
+    @include responsive(medium-desktop) {
+      padding: 2rem;
+      font-size: 1.4rem;
+    }
+  
+    // Estilos para escritorio grande
+    @include responsive(large-desktop) {
+      padding: 1.2rem 3rem;
+      font-size: 1.3rem;
+    }
+  }

@@ -20,6 +20,12 @@ html {
   font-family: "Abel", sans-serif;
 }
 
+html, body {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
 body {
   background-color: $primary-color-light;
 
@@ -30,6 +36,7 @@ body {
     margin: 0 auto;
     padding: 2rem;
     width: 80vw;
+    flex: 1;
   }
 
   h1 {

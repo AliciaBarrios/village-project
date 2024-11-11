@@ -9,16 +9,14 @@ section {
         margin-bottom: 1rem;
     }
 
-    .display-row {
+    .display-section {
         display: flex;
         text-align: justify;
         align-items: center;
 
         .multimedia {
-            width: 150%;
+            width: 100%;
             height: auto;
-
-
             img {
                 max-width: 100%;
                 height: auto;
@@ -26,10 +24,42 @@ section {
         }
 
         .text {
+            width: 100%;
             margin: 0 1.5rem;
             p {
                 margin: 1rem 0;
             }
+        }
+    }
+}
+
+// Estilos para escritorio móviles
+@include responsive(mobile) {
+    section {
+        width: 90vw;
+        .display-section {
+            display: flex;
+            flex-direction: column;
+        }
+    }
+}
+// Estilos para escritorio pequeño
+@include responsive(small-desktop) {
+    section {
+        width: 90vw;
+        .display-section {
+            display: flex;
+            flex-direction: column;
+        }
+    }
+}
+// Estilos para escritorio mediano
+@include responsive(medium-desktop) {
+    section {
+        width: 90vw;
+        .display-section {
+            display: flex;
+            flex-direction: column;
         }
     }
 }

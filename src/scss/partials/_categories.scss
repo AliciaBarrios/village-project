@@ -38,6 +38,21 @@
     grid-template-columns: repeat(3, 1fr);
     gap: 2rem; 
 
+    // Estilos para móviles
+    @include responsive(mobile) {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    // Estilos para escritorio pequeño
+    @include responsive(small-desktop) {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    // Estilos para escritorio mediano
+    @include responsive(medium-desktop) {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
     a {
         text-decoration: none;
 
