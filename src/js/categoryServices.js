@@ -21,7 +21,7 @@ function showItems(categoryId) {
     
     container.innerHTML = items
     .map(item => `
-        <a href="./detalle.html?categoria=${categoryId}&id=${item.id}">
+        <a href="./detalle?categoria=${categoryId}&id=${item.id}">
             <div class="targeta">
                 <div class="multimedia">
                     <img src="${images[item.img]}" alt="${item.img}">
