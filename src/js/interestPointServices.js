@@ -29,23 +29,17 @@ function loadInterestPoint(interestPoint) {
     <a href="./categorias.html" class="nav-link">Categorías</a> > <a href="#" class="nav-link active-link">${interestPoint.title}</a>
     `;
     document.getElementById('title').textContent = interestPoint.title;
+    document.getElementById('img').src = images[interestPoint.img];
     document.getElementById('description').textContent = interestPoint.description;
     document.getElementById('direction').innerHTML = `<i class="fas fa-map-marker-alt"></i> ${interestPoint.direction}`;
     document.getElementById('phone').innerHTML = `<i class="fas fa-phone-alt"></i> ${interestPoint.phone}`;
-    document.getElementById('img').src = images[interestPoint.img];
 }
 function loadOtherInterestPoints(categoryItems,categoryUrl,idUrl) {
     const container = document.getElementById('related-links');
-    let content = '';
-
-    categoryItems.forEach(item => {
-        if(item.id.toString() !== idUrl) {
-            content += `
-                <li><a href="./detalle?categoria=${categoryUrl}&id=${item.id}">${item.title}</a></li>
-            `;
-        }
-    });
-    container.innerHTML = content;
+    container.innerHTML = categoryItems
+    .filter(item => item.id.toString() !== idUrl)
+    .map(item => `<li><a href="./detalle?categoria=${categoryUrl}&id=${item.id}">${item.title}</a></li>`)
+    .join('');
 }
 
 export function loadUrlInterestPoint() {
