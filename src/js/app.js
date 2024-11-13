@@ -6,7 +6,6 @@ const navLinks = document.querySelectorAll('.nav-link');
 
 navLinks.forEach(link => {
     if(link.getAttribute('href') === pathname) {
-        console.log(link.getAttribute('href') );
         link.classList.add('active-link');
     }
 });

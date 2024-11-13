@@ -2,30 +2,36 @@
     "rutas": [
         {
             "id": 1,
-            "img": "img_ruta1",
+            "img": "imgOlzinelles",
             "title": "Cap a la Vall veïna d'Olzinelles",
-            "description": "",
-            "shortDescription":"",
-            "distance": "",
-            "elevation": "",
-            "time": ""
+            "description": "Es un restaurant de muntanya, situat al corredor del Montnegre, pel que està ubicat en una zona rodejada de naturalesa. Es tracta d'una hipica i el restaurant es un lloc acollidor i rústic especialitzats en carns a la brassa.",
+            "shortDescription": "Restaurant de muntanya situat en un entorn natural espectacular. Especialitzats ens carns a la brassa.",
+            "direction": "Inici de ruta:",
+            "distance": "10km",
+            "elevation": "1000m",
+            "time": "1h 5min"
         },
         {
             "id": 2,
-            "img": "img_ruta2",
+            "img": "imgDolmen",
             "title": "El Dolmen de la Pedra Gentil",
-            "description": "",
-            "shortDescription":"",
-            "distance": "",
-            "elevation": "",
-            "time": ""
+            "description": ["La ruta al dolmen de Vallgorguina és una excursió que combina natura, tranquil·litat i història. Situat al parc natural del Montnegre i el Corredor, aquest camí ofereix una immersió en un entorn de gran bellesa, on els caminants poden gaudir de la vegetació autòctona i el paisatge montanyós de la zona. El recorregut és moderat i ideal per a persones que busquen una activitat relaxant però alhora estimulant.",
+            "Comença des del nucli de Vallgorguina, un petit poble amb una rica història, i es dirigeix cap a l’espectacular dolmen. Aquest megalit es remunta a l’edat del bronze i forma part del llegat prehistòric de la comarca. El camí està ben senyalitzat, amb indicacions clares que ajuden als excursionistes a mantenir-se en el recorregut correcte.",
+            "És apte per a tots els nivells, amb petites pujades que ofereixen certes desafiaments, però que no resulten excessivament complicades. Això fa que sigui una activitat ideal per a famílies, grups d'amics o qualsevol persona que vulgui gaudir de la natura mentre aprèn sobre la història local. El recorregut pot durar entre una i dues hores, depenent de l'estat físic dels participants i les parades que facin per admirar el paisatge i explorar el dolmen.",
+            "Una vegada arribat al dolmen, es pot aprofitar per descansar i gaudir de l'entorn, potser fins i tot amb un pícnic per completar l'experiència. Les llegendes i els mites sobre els antics pobles que van construir aquestes estructures afegeixen una capa extra de misteri i interès a la visita."],
+            "shortDescription": "Aquesta és una excursió agradable y fàcil per fer amb nens. Es pot arribar en cotxe fins la construcció megalítica però es recomana realitzar la ruta circular caminant ja que te molts punts d'interes.",
+            "direction": "Inici de ruta: Carrer Montseny, 08471, Vallgorguina",
+            "distance": "7,57 km",
+            "elevation": "155 m",
+            "time": "2h 16min"
         },
         {
             "id": 3,
             "img": "img_ruta3",
             "title": "Santuari del Corredor des de Vallgorguina",
-            "description": "",
-            "shortDescription":"",
+            "description": "Es un restaurant de muntanya, situat al corredor del Montnegre, pel que està ubicat en una zona rodejada de naturalesa. Es tracta d'una hipica i el restaurant es un lloc acollidor i rústic especialitzats en carns a la brassa.",
+            "shortDescription": "Restaurant de muntanya situat en un entorn natural espectacular. Especialitzats ens carns a la brassa.",
+            "direction": "Inici de ruta:",
             "distance": "",
             "elevation": "",
             "time": ""
@@ -57,7 +63,8 @@
             "description": "Es un bar de tapas del pueblo",
             "shortDescription":"Restaurant de muntanya situat en un entorn natural espectacular. Especialitzats ens carns a la brassa.",
             "schedule": "",
-            "direction": ""
+            "direction": "",
+            "phone": "938 67 92 82"
         },
         {
             "id": 3,
@@ -66,7 +73,8 @@
             "description": "",
             "shortDescription":"Restaurant de muntanya situat en un entorn natural espectacular. Especialitzats ens carns a la brassa.",
             "schedule": "",
-            "direction": ""
+            "direction": "",
+            "phone": "938 67 92 82"
         },
         {
             "id": 4,
@@ -75,7 +83,8 @@
             "description": "",
             "shortDescription":"Restaurant de muntanya situat en un entorn natural espectacular. Especialitzats ens carns a la brassa.",
             "schedule": "",
-            "direction": ""
+            "direction": "",
+            "phone": "938 67 92 82"
         },
         {
             "id": 5,
@@ -84,7 +93,8 @@
             "description": "",
             "shortDescription":"Restaurant de muntanya situat en un entorn natural espectacular. Especialitzats ens carns a la brassa.",
             "schedule": "",
-            "direction": ""
+            "direction": "",
+            "phone": "938 67 92 82"
         }
     ],
     "eventos": [
@@ -94,10 +104,7 @@
             "title": "La festa de la Pagesia",
             "description": "",
             "shortDescription":"",
-            "date": {
-                "inici": "23-11-2024",
-                "fi": "24-11-2024"
-            },
+            "date": "Del 23-11-2024 al 24-11-2024",
             "hour": "Tot el dia",
             "direction": "Carrer de l'Església, 13, 08471, Vallgorguina"
         },
@@ -107,10 +114,7 @@
             "title": "Festa Major de Vallgorguina",
             "description": "",
             "shortDescription":"",
-            "date": {
-                "inici": "20-09-2024",
-                "fi": "24-09-2024"
-            },
+            "date": "Del 20-09-2024 al 24-09-2024",
             "hour": "Tot el dia",
             "direction": "Vallgorguina, consultar programa"
         },
@@ -141,7 +145,8 @@
                 "dissabte": "9:00-21:00",
                 "diumenge": "9:00-21:00"
             },
-            "direction": "Polígon Industrial el Molinot, SN, 08471, Vallgorguina"
+            "direction": "Polígon Industrial el Molinot, SN, 08471, Vallgorguina",
+            "phone": "938 67 92 82"
         },
         {
             "id": 2,
@@ -150,7 +155,8 @@
             "description": "",
             "shortDescription":"",
             "schedule": "",
-            "direction": ""
+            "direction": "",
+            "phone": "938 67 92 82"
         },
         {
             "id": 3,
@@ -159,7 +165,8 @@
             "description": "",
             "shortDescription":"",
             "schedule": "",
-            "direction": ""
+            "direction": "",
+            "phone": "938 67 92 82"
         }
     ]
 }

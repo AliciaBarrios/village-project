@@ -54,6 +54,14 @@ body {
   p {
     font-size: 1.4rem;
   }
+
+  section {
+    background-color: $secondary-color-light;
+    padding: 2rem;
+    margin: 1.5rem 0;
+    width: 100%;
+    border-radius: 20px;
+  }
 }
 
 button {

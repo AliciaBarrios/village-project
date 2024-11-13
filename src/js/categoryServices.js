@@ -6,13 +6,15 @@ import imgCasal from '../assets/img_casal.jpeg';
 import imgFontMoreu from '../assets/img_font_moreu.jpg';
 import imgAndreu from '../assets/img_andreu.jpg';
 import imgFogonsXeremell from '../assets/img_fogons_xeremell.jpg';
+import imgDolmen from '../assets/img_dolmen.jpg'
 
-const images = {
+export const images = {
     'imgCanVirgili': imgCanVirgili,
     'imgCasal': imgCasal,
     'imgFontMoreu': imgFontMoreu,
     'imgAndreu': imgAndreu,
-    'imgFogonsXeremell': imgFogonsXeremell
+    'imgFogonsXeremell': imgFogonsXeremell,
+    'imgDolmen': imgDolmen
 }
 
 function showItems(categoryId) {

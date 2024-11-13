@@ -37,22 +37,6 @@
     display: none;
     grid-template-columns: repeat(3, 1fr);
     gap: 2rem; 
-
-    // Estilos para móviles
-    @include responsive(mobile) {
-        grid-template-columns: repeat(1, 1fr);
-    }
-
-    // Estilos para escritorio pequeño
-    @include responsive(small-desktop) {
-        grid-template-columns: repeat(2, 1fr);
-    }
-
-    // Estilos para escritorio mediano
-    @include responsive(medium-desktop) {
-        grid-template-columns: repeat(2, 1fr);
-    }
-
     a {
         text-decoration: none;
 
@@ -84,6 +68,45 @@
                 h3:hover {
                     color: $secondary-color-dark;
                 }
+            }
+        }
+    }
+}
+
+// Estilos para móviles
+@include responsive(mobile) {
+    .categories {
+        .container {
+            width: 100vw;
+            .container-targetas {
+                grid-template-columns: repeat(1, 1fr);
+                .desplegable {
+                    margin: 0.5rem;
+                }
+            }
+        }
+    }
+}
+
+// Estilos para escritorio pequeño
+@include responsive(small-desktop) {
+    .categories {
+        .container {
+
+            .container-targetas {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+    }
+}
+
+// Estilos para escritorio mediano
+@include responsive(medium-desktop) {
+    .categories {
+        .container {
+
+            .container-targetas {
+                grid-template-columns: repeat(2, 1fr);
             }
         }
     }

@@ -7,13 +7,15 @@ import imgCasal from '../assets/img_casal.jpeg';
 import imgFontMoreu from '../assets/img_font_moreu.jpg';
 import imgAndreu from '../assets/img_andreu.jpg';
 import imgFogonsXeremell from '../assets/img_fogons_xeremell.jpg';
+import imgDolmen from '../assets/img_dolmen.jpg'
 
-const images = {
+export const images = {
     'imgCanVirgili': imgCanVirgili,
     'imgCasal': imgCasal,
     'imgFontMoreu': imgFontMoreu,
     'imgAndreu': imgAndreu,
-    'imgFogonsXeremell': imgFogonsXeremell
+    'imgFogonsXeremell': imgFogonsXeremell,
+    'imgDolmen': imgDolmen
 }
 
 function getCategoryItems(category) {
@@ -30,9 +32,49 @@ function loadInterestPoint(interestPoint) {
     `;
     document.getElementById('title').textContent = interestPoint.title;
     document.getElementById('img').src = images[interestPoint.img];
-    document.getElementById('description').textContent = interestPoint.description;
-    document.getElementById('direction').innerHTML = `<i class="fas fa-map-marker-alt"></i> ${interestPoint.direction}`;
-    document.getElementById('phone').innerHTML = `<i class="fas fa-phone-alt"></i> ${interestPoint.phone}`;
+    document.getElementById('direction').innerHTML = `<p><i class="fas fa-map-marker-alt"></i> ${interestPoint.direction}</p>`;
+
+    // Dividir descripción en parrafos
+    const description = interestPoint.description;
+    const descriptionContainer = document.getElementById('description');
+
+    for(let paragraph of description) {
+        const paragraphElement = document.createElement('p');
+        paragraphElement.textContent = paragraph;
+        descriptionContainer.appendChild(paragraphElement);
+    }
+}
+
+function loadInterestPointByCategory(interestPoint, categoryUrl) {
+    // Añadimos detalles según categría
+    if (categoryUrl === 'restaurantes' || categoryUrl === 'instalaciones') {
+        document.getElementById('phone').innerHTML = `<p><i class="fas fa-phone-alt"></i> ${interestPoint.phone}</p>`;
+
+        const scheduleDiv = document.getElementById('schedule');
+        const table = document.createElement('table');
+        
+        const headerRow = table.insertRow();
+        headerRow.innerHTML = "<th>Dia</th><th>Horari</th>";
+    
+        Object.entries(interestPoint.schedule).forEach(([day, hours]) => {
+            const row = table.insertRow();
+            row.insertCell().textContent = day.charAt(0).toUpperCase() + day.slice(1);
+            row.insertCell().textContent = hours;
+        });
+    
+        scheduleDiv.appendChild(table);
+    } else if (categoryUrl === 'rutas') {
+        document.getElementById('route-details').innerHTML = `
+            <p><i class="fas fa-hiking"></i> ${interestPoint.distance}</p>
+            <p><i class="fas fa-mountain"></i> ${interestPoint.elevation}</p>
+            <p><i class="fas fa-clock"></i> ${interestPoint.time}</p>
+        `;
+    } else if (categoryUrl === 'eventos') {
+        document.getElementById('event-details').innerHTML = `
+            <p><i class="fas fa-calendar-alt"></i> ${interestPoint.date}</p>
+            <p><i class="fas fa-clock"></i> ${interestPoint.hour}</p>
+        `;
+    }
 }
 function loadOtherInterestPoints(categoryItems,categoryUrl,idUrl) {
     const container = document.getElementById('related-links');
@@ -51,6 +93,7 @@ export function loadUrlInterestPoint() {
     const interestPoint = getById(idUrl, categoryItems);
     
     loadInterestPoint(interestPoint);
+    loadInterestPointByCategory(interestPoint, categoryUrl);
     loadOtherInterestPoints(categoryItems,categoryUrl, idUrl);
 }
 
