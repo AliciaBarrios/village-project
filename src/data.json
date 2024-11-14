@@ -4,21 +4,30 @@
             "id": 1,
             "img": "imgOlzinelles",
             "title": "Cap a la Vall veïna d'Olzinelles",
-            "description": "Es un restaurant de muntanya, situat al corredor del Montnegre, pel que està ubicat en una zona rodejada de naturalesa. Es tracta d'una hipica i el restaurant es un lloc acollidor i rústic especialitzats en carns a la brassa.",
-            "shortDescription": "Restaurant de muntanya situat en un entorn natural espectacular. Especialitzats ens carns a la brassa.",
+            "description": [
+                "Farem una incursió al nord de Vallgorguina, en direcció al Montnegre, per conèixer la vall veïna d'Olzinelles, que forma part del terme municipal de Sant Celoni.",
+                "Començarem la ruta pel camí vell d'Olzinelles i travessant una petita elevació al voltant del Puigcastell (397 m). A la part alta, gaudirem d'àmplies vistes de la depressió prelitoral del Vallès Oriental i Occidental i, fins i tot, podrem identificar els principals relleus muntanyosos que limiten el nord-oest d'aquestes comarques.",
+                "Baixarem a la vall d'Olzinelles pel costat de Sant Esteve d'Olzinelles, per conèixer el seu patrimoni arquitectònic i l'empremta de l'activitat humana al medi natural. A més, també podrem meravellar-nos dels encants paisatgístics i biològics d'aquesta petita i tranquil·la vall a l'obaga de la serralada.",
+                "En el transcurs del camí, sobretot quan passem per torrents i llocs frescals, ens trobarem envoltats de boscos d'alzines sureres, tot i que també hi haurà altres arbres, com ara pins, alzines i roures, alguns dels quals de grans dimensions. A més, en aquesta ruta també veurem cases pairals, els propietaris de les quals explotaven, endreçaven i tenien cura de les seves terres, no només des d'una òptica productiva sinó també des del respecte i l'harmonia amb el territori.",
+                "La vegetació de la vall, afavorida pel caire atlàntic de la zona, és de ribera: prats de pastura i de conreu, plantacions fustaneres i boscos naturals aprofitats amb diversos fins (per extreure'n carbó, suro, feixines pels forns, fusta, etc.). A més, s'ha de tenir en compte que també hi ha petites construccions, com ara fonts, basses, ponts o forns, que expliquen el lligam de l'home amb el medi. ",
+                "De tornada, baixant de nou a la vall de Vallgorguina, després de conèixer una altra referència toponímica de la zona, ens adonarem de l'abundància i dispersió dels masos en contraposició a la vall d'on venim. Això ens fa pensar en com la propietat del terreny condicionava la seva urbanització."
+            ],
+            "shortDescription": "Amb aquesta ruta travessarem la petita serra del nord de Vallgorguina. Trobarem racons d'allò més extraordinaris, amb fonts, basses o forns, on podrem gaudir del silenci tot fent un petit àpat.",
             "direction": "Inici de ruta:",
-            "distance": "10km",
-            "elevation": "1000m",
-            "time": "1h 5min"
+            "distance": "9,30 km",
+            "elevation": "344 m",
+            "time": "3h"
         },
         {
             "id": 2,
             "img": "imgDolmen",
             "title": "El Dolmen de la Pedra Gentil",
-            "description": ["La ruta al dolmen de Vallgorguina és una excursió que combina natura, tranquil·litat i història. Situat al parc natural del Montnegre i el Corredor, aquest camí ofereix una immersió en un entorn de gran bellesa, on els caminants poden gaudir de la vegetació autòctona i el paisatge montanyós de la zona. El recorregut és moderat i ideal per a persones que busquen una activitat relaxant però alhora estimulant.",
-            "Comença des del nucli de Vallgorguina, un petit poble amb una rica història, i es dirigeix cap a l’espectacular dolmen. Aquest megalit es remunta a l’edat del bronze i forma part del llegat prehistòric de la comarca. El camí està ben senyalitzat, amb indicacions clares que ajuden als excursionistes a mantenir-se en el recorregut correcte.",
-            "És apte per a tots els nivells, amb petites pujades que ofereixen certes desafiaments, però que no resulten excessivament complicades. Això fa que sigui una activitat ideal per a famílies, grups d'amics o qualsevol persona que vulgui gaudir de la natura mentre aprèn sobre la història local. El recorregut pot durar entre una i dues hores, depenent de l'estat físic dels participants i les parades que facin per admirar el paisatge i explorar el dolmen.",
-            "Una vegada arribat al dolmen, es pot aprofitar per descansar i gaudir de l'entorn, potser fins i tot amb un pícnic per completar l'experiència. Les llegendes i els mites sobre els antics pobles que van construir aquestes estructures afegeixen una capa extra de misteri i interès a la visita."],
+            "description": [
+                "La ruta al dolmen de Vallgorguina és una excursió que combina natura, tranquil·litat i història. Situat al parc natural del Montnegre i el Corredor, aquest camí ofereix una immersió en un entorn de gran bellesa, on els caminants poden gaudir de la vegetació autòctona i el paisatge montanyós de la zona. El recorregut és moderat i ideal per a persones que busquen una activitat relaxant però alhora estimulant.",
+                "Comença des del nucli de Vallgorguina, un petit poble amb una rica història, i es dirigeix cap a l’espectacular dolmen. Aquest megalit es remunta a l’edat del bronze i forma part del llegat prehistòric de la comarca. El camí està ben senyalitzat, amb indicacions clares que ajuden als excursionistes a mantenir-se en el recorregut correcte.",
+                "És apte per a tots els nivells, amb petites pujades que ofereixen certes desafiaments, però que no resulten excessivament complicades. Això fa que sigui una activitat ideal per a famílies, grups d'amics o qualsevol persona que vulgui gaudir de la natura mentre aprèn sobre la història local. El recorregut pot durar entre una i dues hores, depenent de l'estat físic dels participants i les parades que facin per admirar el paisatge i explorar el dolmen.",
+                "Una vegada arribat al dolmen, es pot aprofitar per descansar i gaudir de l'entorn, potser fins i tot amb un pícnic per completar l'experiència. Les llegendes i els mites sobre els antics pobles que van construir aquestes estructures afegeixen una capa extra de misteri i interès a la visita."
+            ],
             "shortDescription": "Aquesta és una excursió agradable y fàcil per fer amb nens. Es pot arribar en cotxe fins la construcció megalítica però es recomana realitzar la ruta circular caminant ja que te molts punts d'interes.",
             "direction": "Inici de ruta: Carrer Montseny, 08471, Vallgorguina",
             "distance": "7,57 km",
@@ -27,14 +36,18 @@
         },
         {
             "id": 3,
-            "img": "img_ruta3",
-            "title": "Santuari del Corredor des de Vallgorguina",
-            "description": "Es un restaurant de muntanya, situat al corredor del Montnegre, pel que està ubicat en una zona rodejada de naturalesa. Es tracta d'una hipica i el restaurant es un lloc acollidor i rústic especialitzats en carns a la brassa.",
-            "shortDescription": "Restaurant de muntanya situat en un entorn natural espectacular. Especialitzats ens carns a la brassa.",
-            "direction": "Inici de ruta:",
-            "distance": "",
-            "elevation": "",
-            "time": ""
+            "img": "imgTourdera",
+            "title": "Ruta TOURDERA",
+            "description": [
+                "Si voleu fer el recorregut de la Tourdera entre Vallgorguina i Sant Celoni, heu de saber que que es tracta d’un itinerari d’enllaç des del nucli de Vallgorguina fins a Sant Celoni, i que només una petita part del recorregut forma part de l’itinerari principal de la Tourdera. Tot i així, es tracta d’un tram molt atractiu que aprofita bona part de la Via Verda de Vallgorguina. Si voleu fer l’itinerari, aquest s’inicia al Punt d’Informació Turística de Vallgorguina, on trobareu el plafó de la ruta i la primera banderola de seguiment que us indica l’itinerari. Es tracta d’un tram de 9,3 quilòmetres de longitud, amb un desnivell de pujada de 118 metres, i una dificultat global mitjana.",
+                "Seguint les indicacions, circulareu uns metres per la carretera C-61 fins a l’entrada del poble, on de seguida ja indica un canvi de direcció. En pocs metres ja entrareu a la Via Verda, un itinerari paral·lel a la riera de Vallgorguina, molt tranquil i a l’ombra, per on discorre bona part de la ruta. Entre d’altres punts, passareu pel costat de la depuradora, de l’antiga església de Vallgorguina i arribareu fins al Pont d’en Pradell. A partir d’aquest punt, la ruta agafa una pista i s’endinsa pel Parc Natural del Montnegre-Corredor, en un ascens que us permetrà accedir al Dolmen de Pedra Gentil. continuant l’itinerari, seguireu per pistes i senders, tornant a baixar cap a la riera de Vallgorguina, just en una zona amb un circuit.",
+                "A partir d’aquest punt, tornareu a seguir en paral·lel a la riera de Vallgorguina fins al polígon el Molinot. A partir d’aquí, ja iniciareu el darrer tram fins a Sant Celoni, passant uns metres pel voral de la carretera C-61, travessant l’autopista, deixant en nucli del Pont Trencat i circulant uns metres pel costat de la Tordera fins la passera de Can Pàmies, la qual haureu de travessar seguint les indicacions per acostar-vos fins al centre de Sant Celoni. Aquí, disposareu d’oficina d’informació turística, serveis com comerços, bars, restaurants, etc…"
+            ],
+            "shortDescription": "L'Ajuntament de Vallgorguina va signar un conveni de col·laboració amb el Consell Comarcal de la Selva, per al desenvolupament del projecte 'Ruta de la Tordera i riera d'Arbúcies'.",
+            "direction": "Inici de ruta: Punt d’Informació Turística de Vallgorguina",
+            "distance": "9,30 km",
+            "elevation": "118 m",
+            "time": "3h 15min"
         }
     ],
     "restaurantes": [
@@ -42,7 +55,12 @@
             "id": 1,
             "img": "imgCanVirgili",
             "title": "Can Virgili",
-            "description": "Es un restaurant de muntanya, situat al corredor del Montnegre, pel que està ubicat en una zona rodejada de naturalesa. Es tracta d'una hipica i el restaurant es un lloc acollidor i rústic especialitzats en carns a la brassa.",
+            "description": [
+                "El restaurant Can Virgili és un dels espais més encantadors de Vallgorguina, situat en un entorn privilegiat a la zona del Montnegre i el Corredor. Aquest restaurant combina l’encant d’un establiment rústic de muntanya amb l’oferta d’un ambient acollidor i familiar, ideal per als amants de la natura i la tranquil·litat. És un punt de trobada popular per a excursionistes, ciclistes i famílies que desitgen gaudir d'un menjar autèntic després d'un dia d'activitats a l'aire lliure.",
+                "Especialitzats en carns a la brasa, els plats de Can Virgili destaquen pel sabor i per la qualitat dels ingredients locals i frescos. A més de les carns, ofereixen altres opcions com amanides, verdures a la brasa, i postres casolans que completen una experiència gastronòmica autèntica. La senzillesa i la proximitat del servei fan que els comensals es sentin com a casa, amb un tracte càlid i personalitzat.",
+                "A part de la seva proposta culinària, Can Virgili disposa d’unes vistes espectaculars al bosc i els paisatges que envolten Vallgorguina, oferint una experiència immillorable per a desconnectar del bullici de la ciutat. Així mateix, el restaurant està vinculat a una hípica, la qual cosa permet als visitants combinar la seva estada amb activitats a cavall, afegint un toc especial a la visita.",
+                "És un lloc perfecte tant per a dinars familiars com per a trobades amb amics o esdeveniments més privats, amb espais amplis i una decoració rústica que crea una atmosfera acollidora i genuïna de muntanya."
+            ],
             "shortDescription": "Restaurant de muntanya situat en un entorn natural espectacular. Especialitzats ens carns a la brassa.",
             "schedule": {
                 "dilluns": "Tancat",
@@ -59,83 +77,159 @@
         {
             "id": 2,
             "img": "imgAndreu",
-            "title": "Ca l'Andreu",
-            "description": "Es un bar de tapas del pueblo",
-            "shortDescription":"Restaurant de muntanya situat en un entorn natural espectacular. Especialitzats ens carns a la brassa.",
-            "schedule": "",
-            "direction": "",
-            "phone": "938 67 92 82"
+            "title": "Menjars L’Andreu Bar",
+            "description": [
+                "Menjars L’Andreu Bar és un establiment popular a Vallgorguina, conegut pel seu ambient acollidor i l'excel·lent oferta gastronòmica de cuina catalana casolana. El local ofereix una varietat de plats tradicionals i tapes elaborades amb productes frescos i de qualitat, amb un menú que inclou opcions per a tots els gustos, des de carns a la brasa fins a guisats de muntanya, passant per tapes variades, entrepans, i plats de temporada. La decoració del bar és rústica i càlida, cosa que convida a relaxar-se i gaudir d'un bon àpat en un ambient agradable.",
+                "És ideal tant per a esmorzars i dinars informals com per a trobades amb amics o família, especialment després de gaudir de les rutes naturals que envolten Vallgorguina. El tracte del personal és amable i proper, fet que crea un ambient familiar i acollidor que fa que els clients se sentin com a casa. La combinació entre una bona cuina i l'ambient tranquil fa que aquest bar sigui un lloc de visita obligada per a qui vulgui tastar els sabors autèntics de la comarca en un entorn rural i autèntic."
+            ],
+            "shortDescription":"Restaurant acollidor que ofereix cuina catalana tradicional en un entorn natural espectacular, la seva especialitat són les tapes!",
+            "schedule": {
+                "dilluns": "8:30-12:00",
+                "dimarts": "8:30-12:00",
+                "dimecres": "8:30-12:00",
+                "dijous": "8:30-12:00",
+                "divendres": "8:30-12:00, 18:00-24:00",
+                "dissabte": "8:30-16:00, 18:00-24:00",
+                "diumenge": "8:30-16:00"
+            },
+            "direction": "Plaça de la Vila, 5, 08471, Vallgorguina",
+            "phone": "93 867 89 10"
         },
         {
             "id": 3,
             "img": "imgCasal",
             "title": "El Casal del Poble",
-            "description": "",
-            "shortDescription":"Restaurant de muntanya situat en un entorn natural espectacular. Especialitzats ens carns a la brassa.",
-            "schedule": "",
-            "direction": "",
-            "phone": "938 67 92 82"
+            "description": [
+                "El Casal del Poble de Vallgorguina és una institució emblemàtica i un punt de trobada vital per a la vida social i cultural del municipi. Situat en el centre del poble, aquest casal acull una gran varietat d'activitats i esdeveniments per a persones de totes les edats, des d'espectacles i concerts fins a xerrades, tallers, i celebracions tradicionals. Amb un ambient acollidor i una programació activa durant tot l'any, El Casal del Poble fomenta la cohesió social i proporciona als veïns un lloc on trobar-se, compartir experiències i gaudir de la vida comunitària.",
+                "Aquest espai ofereix instal·lacions que inclouen sales per a activitats en grup, espais per a la realització de tallers i esdeveniments, i sovint col·labora amb entitats locals per promoure el patrimoni cultural de Vallgorguina. Tant en moments de festivitat, com la Festa Major, com en activitats regulars, el Casal del Poble manté viva la tradició i la identitat del poble, fent-lo un lloc de referència per als habitants i visitants que busquen descobrir la cultura local en un ambient proper i amè.",
+                "A més de ser un espai per a activitats culturals i comunitàries, també compta amb un bar restaurant que ofereix una varietat de plats casolans i típics de la cuina catalana. Aquest espai gastronòmic és ideal per a gaudir d’un bon àpat en un ambient acollidor i familiar, ja sigui abans o després de participar en alguna de les activitats o esdeveniments que es realitzen al casal.",
+                "Serveix tant plats tradicionals com tapes, begudes i esmorzars de forquilla, convertint-se en un punt de trobada no només per a veïns, sinó també per a visitants que volen assaborir la cuina local. Amb una atmosfera càlida i una carta que inclou ingredients frescos i de proximitat, el bar restaurant és un lloc perfecte per gaudir de la gastronomia de la zona en un entorn social i proper."
+            ],
+            "shortDescription": "És un espai comunitari que acull activitats socials, culturals i festives per a tots els veïns, oferint un punt de trobada per a la comunitat i esdeveniments locals.",
+            "schedule": {
+                "dilluns": "7:00-24:00",
+                "dimarts": "7:00-24:00",
+                "dimecres": "7:00-24:00",
+                "dijous": "7:00-24:00",
+                "divendres": "7:00-24:00",
+                "dissabte": "7:00-24:00",
+                "diumenge": "7:00-24:00"
+            },
+            "direction": "Carrer de l'Església, 13, 08471, Vallgorguina",
+            "phone": "93 867 90 90"
         },
         {
             "id": 4,
             "img": "imgFontMoreu",
             "title": "La Font de Can Moreu",
-            "description": "",
-            "shortDescription":"Restaurant de muntanya situat en un entorn natural espectacular. Especialitzats ens carns a la brassa.",
-            "schedule": "",
-            "direction": "",
-            "phone": "938 67 92 82"
+            "description": [
+                "El Restaurant La Font de Can Moreu és un dels establiments més destacats de Vallgorguina, conegut per la seva cuina autèntica i casolana. Situat en una zona envoltada de natura, el restaurant ofereix un ambient tranquil i familiar, ideal per a gaudir d’un bon àpat després d’una passejada pels entorns naturals de la zona. La seva carta inclou plats típics de la gastronomia catalana, amb una especial atenció a productes de temporada i de proximitat, com ara embotits artesans, carns a la brasa, i guisats tradicionals.",
+                "El restaurant es caracteritza per l’atenció al detall en la presentació i en la qualitat dels plats, creant una experiència culinària que combina els sabors de tota la vida amb un toc acollidor i modern. És un punt de trobada per a veïns i excursionistes que busquen un lloc on reposar i gaudir d’un ambient càlid, amb un servei amable i proper. A més, els visitants poden gaudir de la bellesa del paisatge de Vallgorguina des de les instal·lacions del restaurant, fent de La Font de Can Moreu una parada imprescindible per a qui vulgui conèixer la gastronomia i l’entorn local."
+            ],
+            "shortDescription":"És un encantador establiment envoltat de natura, on es poden degustar plats de cuina tradicional catalana en un ambient familiar i acollidor",
+            "schedule": {
+                "dilluns": "Tancat",
+                "dimarts": "Tancat",
+                "dimecres": "Tancat",
+                "dijous": "Tancat",
+                "divendres": "20:30-23:00",
+                "dissabte": "13:00-16:30, 20:30-23:00",
+                "diumenge": "13:00-16:30"
+            },
+            "direction": "Can Bòtil, s/n, 08471, Vallgorguina",
+            "phone": "93 867 90 73"
         },
         {
             "id": 5,
             "img": "imgFogonsXeremell",
             "title": "Els Fogons del Xeremell",
-            "description": "",
-            "shortDescription":"Restaurant de muntanya situat en un entorn natural espectacular. Especialitzats ens carns a la brassa.",
-            "schedule": "",
-            "direction": "",
-            "phone": "938 67 92 82"
+            "description": [
+                "Els Fogons del Xeremell és conegut no només per la seva cuina autèntica catalana, sinó també per les seves acollidores instal·lacions situades en un entorn natural de Vallgorguina. Amb un interior decorat amb tocs rústics i tradicionals, aquest restaurant ofereix un ambient càlid i familiar on els clients poden gaudir de plats clàssics de la gastronomia catalana, com carns a la brasa, guisats i tapes, tot preparat amb productes frescos i locals.",
+                "Una de les característiques més destacades d'Els Fogons del Xeremell és la seva àmplia zona de barbacoa a l'exterior. Aquest espai permet als comensals viure una experiència culinària única, especialment durant els mesos de bon temps, en què es pot gaudir d'àpats a l'aire lliure envoltats de natura. La zona de barbacoa és ideal per a grups d’amics o famílies que volen compartir un bon àpat mentre es gaudeix d'un ambient relaxat i tranquil. A més, el personal del restaurant ofereix un servei atent que contribueix a fer que cada visita sigui especial.",
+                "En resum, Els Fogons del Xeremell combina tradició i comoditat en un entorn privilegiat, on la qualitat dels plats i les instal·lacions exteriors amb barbacoa fan d’aquest restaurant una opció excel·lent per a una experiència gastronòmica memorable."
+            ],
+            "shortDescription":"És un restaurant amb encant rústic, especialitzat en cuina catalana tradicional, amb plats que posen en valor els productes locals i de temporada.",
+            "schedule": {
+                "dilluns": "Tancat",
+                "dimarts": "Tancat",
+                "dimecres": "Tancat",
+                "dijous": "Tancat",
+                "divendres": "Tancat",
+                "dissabte": "9:00-19:00",
+                "diumenge": "9:00-19:00"
+            },
+            "direction": "C-61, km 11, 4, 08471, Vallgorguina",
+            "phone": "666 53 14 99"
         }
     ],
     "eventos": [
         {
             "id": 1,
-            "img": "img_evento1",
-            "title": "La festa de la Pagesia",
-            "description": "",
-            "shortDescription":"",
+            "img": "imgPagesia",
+            "title": "Fira del Bosc i la Pagesia",
+            "description": [
+                "La Fira del Bosc i la Pagesia de Vallgorguina és un esdeveniment anual que té lloc al poble de Vallgorguina, a la comarca del Maresme. Aquesta fira posa en valor la cultura rural i les tradicions lligades al bosc i l’agricultura de la zona. Els visitants poden gaudir de diverses activitats com tallers sobre treballs forestals, mostres d'oficis tradicionals, exposicions d'artesania local, i degustacions de productes típics de la terra. És una cita per descobrir la riquesa natural i cultural d'aquesta part del Vallès."
+            ],
+            "shortDescription":"Es realitzen activitats per a tota la família, amb tallers, exposicions i una gran varietat de productes artesanals. No t'ho perdis!",
             "date": "Del 23-11-2024 al 24-11-2024",
             "hour": "Tot el dia",
             "direction": "Carrer de l'Església, 13, 08471, Vallgorguina"
         },
         {
             "id": 2,
-            "img": "img_evento2",
+            "img": "imgVallgorguina",
             "title": "Festa Major de Vallgorguina",
-            "description": "",
-            "shortDescription":"",
+            "description": [
+                "La Festa Major de Vallgorguina és l’esdeveniment més esperat de l'any pels seus habitants, una celebració que uneix tradició, cultura i diversió. Aquesta festa, que té lloc a l’estiu, inclou una gran varietat d'activitats per a totes les edats, oferint des de jocs infantils, activitats esportives i cercaviles fins a balls populars i concerts en directe. La festa major és un moment especial per gaudir del folklore local, amb actuacions de grups de dansa, bastoners i gegants que recorren els carrers del poble.",
+                "Entre els esdeveniments destacats, hi ha els sopars populars a la fresca, on famílies i amics es reuneixen per compartir àpats tradicionals i crear records inoblidables. També són molt esperats els focs artificials que omplen el cel de colors, il·luminant Vallgorguina i marcant el final de la festa amb una explosió de llum i color. Al llarg de la festa, el poble vibra amb música, espectacles i un ambient de fraternitat i alegria.",
+                "La Festa Major de Vallgorguina és una oportunitat única per als visitants de submergir-se en la cultura local i formar part d’aquesta gran tradició. Amb activitats per a totes les edats, des de les matinades fins a les vetllades plenes de música, la festa és una mostra de l'esperit acollidor i festiu que caracteritza aquest poble del Montseny."
+            ],
+            "shortDescription":"És una celebració anual plena de tradició, música, activitats populars i moments d’alegria comunitària",
             "date": "Del 20-09-2024 al 24-09-2024",
             "hour": "Tot el dia",
             "direction": "Vallgorguina, consultar programa"
         },
         {
             "id": 3,
-            "img": "img_evento3",
-            "title": "",
-            "description": "",
-            "shortDescription":"",
-            "date": "",
-            "hour": "",
-            "direction": ""
+            "img": "imgBaronia",
+            "title": "Festa de la Baronia del Montseny",
+            "description": [
+                "La Festa de la Baronia del Montseny és una de les celebracions més importants de Vallgorguina, que se celebra anualment, usualment al mes de maig. Aquest esdeveniment destaca per la seva connexió amb la cultura, tradicions i el patrimoni local de la comarca. La festa s’omple d’activitats per a tots els públics, com ara espectacles musicals, cercaviles, concursos de cultura popular i activitats infantils, que posen en valor la riquesa cultural de la zona.",
+                "Durant la festa, els visitants poden gaudir també de la gastronomia local i la venda de productes artesanals, tot això en un ambient festiu que recull la història i l’esperit de la Baronia del Montseny. A més, les activitats com rutes de natura o esdeveniments esportius també són part de la celebració, vinculant la festa a l’entorn natural que envolta Vallgorguina.",
+                "Estigues atent ja que en breu publicarem dates i programa d'activitats."
+            ],
+            "shortDescription":"Tota la informació a la descripció!",
+            "date": "A concretar",
+            "hour": "A concretar",
+            "direction": "Vallgorguina, consultar programa"
+        },
+        {
+            "id": 4,
+            "img": "imgTio",
+            "title": "Anem a Buscar el Tió",
+            "description": [
+                "Aquesta festa és una activitat popular que se celebra cada any el 15 de desembre a Vallgorguina. Aquesta jornada forma part de les celebracions nadalenques del poble i està especialment dissenyada per a les famílies. Els participants, guiats per monitors i ambientats en una atmosfera festiva, es dirigeixen al bosc per a buscar el Tió, una de les figures més arrelades de les tradicions nadalenques catalanes.",
+                "Un cop trobat el Tió, es realitza la típica 'caga' de regals, on els més petits poden gaudir de la màgia del Nadal, tocant el Tió amb bastons mentre cantant la tradicional cançó. A més d’aquest moment màgic, l’activitat inclou altres propostes lúdiques com tallers, activitats infantils i la possibilitat de gaudir de productes típics de la temporada. La jornada es completa amb una bona convivència i l’esperit nadalenc que caracteritza a Vallgorguina.",
+                "És una de les activitats més esperades per les famílies, que poden gaudir d’una jornada d'esbarjo i tradició al voltant del Nadal."
+            ],
+            "shortDescription":"Activitat familiar on els participants, acompanyats dels més petits, surten al bosc a buscar el Tió per celebrar el Nadal.",
+            "date": "15-12-2024",
+            "hour": "10:30h",
+            "direction": "Can Plana, Vallgorguina"
         }
     ],
     "instalaciones": [
         {
             "id": 1,
-            "img": "img_evento1",
+            "img": "imgDinamic",
             "title": "Dinàmic Pàdel Indoor",
-            "description": "",
-            "shortDescription":"",
+            "description": [
+                "Dinàmic Pàdel Indoor és un complex esportiu dedicat a l'esport de pàdel, ubicat a Vallgorguina. Aquesta instal·lació destaca per les seves pistes cobertes, que permeten jugar en qualsevol moment de l'any, independentment de les condicions meteorològiques. El centre compta amb pistes de gran qualitat, dissenyades per a satisfer les necessitats de jugadors de tots els nivells.",
+                "A més de les pistes, Dinàmic Pàdel Indoor ofereix una varietat d'activitats i serveis relacionats amb el pàdel, com ara classes per a nens i adults, tornejos i lloguer de material. Les instal·lacions també disposen d'una zona de descans i un espai per a les famílies, creant un ambient acollidor i familiar per a tots els usuaris.",
+                "El centre és ideal tant per a aquells que volen iniciar-se en aquest esport com per a jugadors més experimentats que volen entrenar-se o participar en competicions. La filosofia de Dinàmic Pàdel Indoor es basa en promoure l'esport de manera divertida i inclusiva, oferint un lloc segur i adequat per a tots els aficionats al pàdel.",
+                "A més, disposen d'un bar, perfecte per relaxar-se després d'una partida. Ofereix un ambient còmode i acollidor per als jugadors i les seves famílies. A part de ser un espai de descans, el bar proporciona una selecció d'aperitius, begudes i plats per satisfer els clients abans o després de jugar. Amb un servei càlid i una decoració moderna, el bar es converteix en una part integral de l'experiència, creant una atmosfera social per interactuar amb altres aficionats al pàdel."
+            ],
+            "shortDescription": "Centre esportiu especialitzat en pàdel, amb pistes cobertes i equipament de primera ofereix un espai ideal per gaudir d'aquest esport, tant per a amateurs com per a jugadors professionals.",
             "schedule": {
                 "dilluns": "9:00-23:00",
                 "dimarts": "9:00-23:00",
@@ -146,27 +240,49 @@
                 "diumenge": "9:00-21:00"
             },
             "direction": "Polígon Industrial el Molinot, SN, 08471, Vallgorguina",
-            "phone": "938 67 92 82"
+            "phone": "670 47 98 56"
         },
         {
             "id": 2,
-            "img": "img_evento2",
-            "title": "",
-            "description": "",
-            "shortDescription":"",
-            "schedule": "",
-            "direction": "",
-            "phone": "938 67 92 82"
+            "img": "imgMuseu",
+            "title": "Museu del bosc i la pagesia",
+            "description": [
+                "El Museu del Bosc i la Pagesia de Vallgorguina és un espai dedicat a la preservació i exposició del ric patrimoni rural i natural del municipi. Inaugurat el 2016, aquest museu està situat a la casa remodelada de Can Mainou, cedida per Joan Mainou al municipi. ",
+                "El museu ofereix tres àrees d'exposició que mostren eines tradicionals utilitzades a la pagesia i al bosc, així com testimonis audiovisuals de la vida rural a Vallgorguina. A més, els visitants poden explorar un pati exterior amb elements històrics com un carro, un cavall i pedres del Molí Nou. També s'inclouen exposicions sobre els oficis relacionats amb el bosc, com el carbó i la fusta, i l'excursionisme local​."
+            ],
+            "shortDescription":"Exposició del patrimoni rural de la zona, incloent eines tradicionals de la pagesia i el bosc, i oferint una visió de la vida de les generacions passades a través de fotografies i audiovisuals.",
+            "schedule": {
+                "dilluns": "Tancat",
+                "dimarts": "Tancat",
+                "dimecres": "Tancat",
+                "dijous": "Tancat",
+                "divendres": "Tancat",
+                "dissabte": "10:00-14:00",
+                "diumenge": "10:00-14:00"
+            },
+            "direction": "Carretera Nova, 36, 08471, Vallgorguina",
+            "phone": "93 867 91 25"
         },
         {
             "id": 3,
-            "img": "img_evento3",
-            "title": "",
-            "description": "",
-            "shortDescription":"",
-            "schedule": "",
-            "direction": "",
-            "phone": "938 67 92 82"
+            "img": "imgPoliesportiu",
+            "title": "Poliesportiu",
+            "description": [
+                "El Poliesportiu de Vallgorguina és un centre esportiu clau a la comunitat, conegut per la seva àmplia oferta d'activitats i instal·lacions. A més de la pista, el poliesportiu disposa d'altres espais per a la pràctica de diferents disciplines, com el bàsquet, el futbol sala i altres esports.",
+                "Recentment, s'han realitzat obres de remodelació, incloent-hi un projecte de semi tancament de la pista poliesportiva, per un import de més de 700.000 €, que busca millorar les condicions per als esportistes, augmentant la seguretat i el confort. Aquesta remodelació permetrà que els usuaris gaudeixin de les instal·lacions durant tot l'any, protegits de les inclemències meteorològiques."
+            ],
+            "shortDescription": "Moderna instal·lació esportiva que ofereix diversos espais per a la pràctica d'esports, amb una pista poliesportiva remodelada i altres equipaments. La remoledació ha millorat les condicions pels usuaris.",
+            "schedule": {
+                "dilluns": "Obert 24 hores",
+                "dimarts": "Obert 24 hores",
+                "dimecres": "Obert 24 hores",
+                "dijous": "Obert 24 hores",
+                "divendres": "Obert 24 hores",
+                "dissabte": "Obert 24 hores",
+                "diumenge": "Obert 24 hores"
+            },
+            "direction": "Carrer de l'Església, 15 - 08471 Vallgorguina",
+            "phone": "93 867 91 25"
         }
     ]
 }

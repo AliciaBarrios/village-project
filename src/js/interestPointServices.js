@@ -7,7 +7,16 @@ import imgCasal from '../assets/img_casal.jpeg';
 import imgFontMoreu from '../assets/img_font_moreu.jpg';
 import imgAndreu from '../assets/img_andreu.jpg';
 import imgFogonsXeremell from '../assets/img_fogons_xeremell.jpg';
-import imgDolmen from '../assets/img_dolmen.jpg'
+import imgDolmen from '../assets/img_dolmen.jpg';
+import imgOlzinelles from '../assets/img_olzinelles.jpg';
+import imgPagesia from '../assets/img_pagesia.png';
+import imgBaronia from '../assets/img_baronia.jpg';
+import imgVallgorguina from '../assets/img_vallgorguina.jpeg';
+import imgTio from '../assets/img_tio.jpg';
+import imgTourdera from '../assets/img_tourdera.png';
+import imgMuseu from '../assets/img_museu.jpg';
+import imgDinamic from '../assets/img_dinamic.jpg';
+import imgPoliesportiu from '../assets/img_poliesportiu.jpg';
 
 export const images = {
     'imgCanVirgili': imgCanVirgili,
@@ -15,7 +24,16 @@ export const images = {
     'imgFontMoreu': imgFontMoreu,
     'imgAndreu': imgAndreu,
     'imgFogonsXeremell': imgFogonsXeremell,
-    'imgDolmen': imgDolmen
+    'imgDolmen': imgDolmen,
+    'imgOlzinelles': imgOlzinelles,
+    'imgPagesia': imgPagesia,
+    'imgBaronia': imgBaronia,
+    'imgVallgorguina': imgVallgorguina,
+    'imgTio': imgTio,
+    'imgTourdera': imgTourdera,
+    'imgMuseu': imgMuseu,
+    'imgDinamic': imgDinamic,
+    'imgPoliesportiu': imgPoliesportiu
 }
 
 function getCategoryItems(category) {
