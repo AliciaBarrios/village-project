@@ -55,7 +55,7 @@ function showItems(categoryId) {
     `)
     .join('');
 }
-export function toggleOptions(categoryId, event) {
+function toggleOptions(categoryId, event) {
     const options = document.getElementById(categoryId);
     const currentContainer = event.currentTarget;
     const icon = currentContainer.querySelector('i');
