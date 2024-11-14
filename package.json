@@ -24,8 +24,7 @@
   },
   "targets": {
     "default": {
-      "publicUrl": "./",
-      "includeNodeModules": true
+      "publicUrl": "./"
     }
   },
   "dependencies": {
