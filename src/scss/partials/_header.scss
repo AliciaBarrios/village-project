@@ -13,9 +13,6 @@
         .nav-link {
           text-decoration: none;
           color: $primary-color-light;
-          @include responsive(mobile) {
-              color: $primary-color-dark;
-          }
 
           &:hover {
               color: $secondary-color-dark;
@@ -31,7 +28,6 @@
 
   // Estilos para móviles
   @include responsive(mobile) {
-    background-color: $primary-color-light;
     padding: 0.5rem;
     font-size: 1rem;
   }

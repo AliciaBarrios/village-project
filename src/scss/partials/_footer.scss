@@ -3,6 +3,7 @@
     text-align: center;
     display: flex;
     justify-content: space-between;
+    align-items: center;
   
     .legal-links, 
     .social-networks {
@@ -11,19 +12,14 @@
         li {
           list-style-type: none;
           margin-right: 1rem;
-          
           .footer-link {
             text-decoration: none;
             color: $primary-color-light;
-            @include responsive(mobile) {
-                color: $primary-color-dark;
-            }
   
             &:hover {
                 color: $secondary-color-dark;
             }
           }
-  
           .active-link {
             color: $secondary-color-dark;
           }
@@ -35,6 +31,15 @@
     @include responsive(mobile) {
       padding: 0.5rem;
       font-size: 1rem;
+      .legal-links {
+        ul {
+          display: grid;
+          grid-template-columns: repeat(2, 1fr);
+          li {
+            margin-bottom: 0.5rem;
+          }
+        }
+      }
     }
   
     // Estilos para escritorio pequeño
