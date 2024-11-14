@@ -1,14 +1,14 @@
 //Obtención data para las categorías
 import eventos from '../eventos.json';
-// import instalaciones from '../instalaciones.json';
-import restaurantes from '../restaurantes.json';
-import rutas from '../rutas.json';
+import instalaciones from '../instalaciones.json';
+// import restaurantes from '../restaurantes.json';
+// import rutas from '../rutas.json';
 
 const data = {
     'eventos': eventos,
-    // 'instalaciones': instalaciones,
-    'rutas': rutas,
-    'restaurantes': restaurantes
+    'instalaciones': instalaciones,
+    // 'rutas': rutas,
+    // 'restaurantes': restaurantes
 }
 
 //Importación imágenes
