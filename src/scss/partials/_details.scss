@@ -1,3 +1,4 @@
+
 .details {
     .container {
         width: 90vw;
@@ -18,15 +19,15 @@
             }
 
             .display-section-img { 
-               display: flex; 
-               justify-content: space-between;
-               align-items: center;
-               margin: 2rem 0;
-               img {
+                display: flex; 
+                justify-content: space-between;
+                align-items: center;
+                margin: 2rem 0;
+                img {
                     width: 95%;
                     height: auto;
                 }
-               section {
+                section {
                     width: 50%;
                     table {
                         table-layout: fixed;
@@ -40,7 +41,7 @@
                     td {
                         padding: 0.2rem 1rem;
                     }
-               }
+                }
             }
         }
 
@@ -69,10 +70,12 @@
 @include responsive(mobile) {
     .details {
         .container {
-            width: 100vw;
+            width: 90vw;
             display: flex;
             flex-direction: column;
+
             .main-info {
+                width: 95%;
                 .display-section-img {
                     width: 100%;
                     display: flex;
@@ -89,9 +92,10 @@
 
             aside {
                 width: 100%;
-                margin: 1rem 0;
+                display: flex;
             }
         }
+
     }
 }
 
@@ -99,18 +103,33 @@
 @include responsive(small-desktop) {
     .details {
         .container {
-            width: 100vw;
+            width: 90vw;
             display: flex;
             flex-direction: column;
+
+            aside {
+                width: 100%;
+                margin: 1rem 0;
+            }
         }
+
     }
 }
 
-// Estilos para escritorio mediano
+//Estilos para escritorio mediano
 @include responsive(medium-desktop) {
     .details {
         .container {
-            width: 100vw;
+            width: 90vw;
+            display: flex;
+            flex-direction: column;
+
+            aside {
+                width: 100%;
+                margin: 1rem 0;
+            }
         }
+
     }
 }
+

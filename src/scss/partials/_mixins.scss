@@ -6,13 +6,8 @@ $large-desktop: 1440px;
 
 // Mixin para media queries
 @mixin responsive($size) {
-  @if $size == mobile {
-    @media (max-width: $mobile) {
-      @content;
-    }
-  }
-  @else if $size == small-desktop {
-    @media (min-width: ($mobile + 1)) and (max-width: $small-desktop) {
+  @if $size == large-desktop {
+    @media (min-width: ($medium-desktop + 1)) {
       @content;
     }
   }
@@ -21,8 +16,13 @@ $large-desktop: 1440px;
       @content;
     }
   }
-  @else if $size == large-desktop {
-    @media (min-width: ($medium-desktop + 1)) {
+  @else if $size == small-desktop {
+    @media (min-width: ($mobile + 1)) and (max-width: $small-desktop) {
+      @content;
+    }
+  }
+  @else if $size == mobile {
+    @media (max-width: $mobile) {
       @content;
     }
   }
