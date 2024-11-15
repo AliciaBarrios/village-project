@@ -77,7 +77,7 @@ window.toggleOptions = toggleOptions;
 function getCategoryItems(category) {
     return data[category];
 }
-function getById(id,categoryItems) {
+function getInterestPointById(id,categoryItems) {
     const selectedInterestPoint = categoryItems.find(item => item.id === parseInt(id));
     return selectedInterestPoint;
 }
@@ -88,6 +88,7 @@ function loadInterestPoint(interestPoint) {
     `;
     document.getElementById('title').textContent = interestPoint.title;
     document.getElementById('img').src = images[interestPoint.img];
+    document.getElementById('author').textContent = interestPoint.authorImg;
     document.getElementById('direction').innerHTML = `<p><i class="fas fa-map-marker-alt"></i> ${interestPoint.direction}</p>`;
 
     // Dividir descripción en parrafos
@@ -146,7 +147,7 @@ export function loadUrlInterestPoint() {
     const categoryUrl = params.get("categoria");
 
     const categoryItems = getCategoryItems(categoryUrl);
-    const interestPoint = getById(idUrl, categoryItems);
+    const interestPoint = getInterestPointById(idUrl, categoryItems);
     
     loadInterestPoint(interestPoint);
     loadInterestPointByCategory(interestPoint, categoryUrl);

@@ -3,6 +3,7 @@
         {
             "id": 1,
             "img": "imgPagesia",
+            "authorImg": "Font Imatge: Ajuntament de Vallgorguina",
             "title": "Fira del Bosc i la Pagesia",
             "description": [
                 "La Fira del Bosc i la Pagesia de Vallgorguina és un esdeveniment anual que té lloc al poble de Vallgorguina, a la comarca del Maresme. Aquesta fira posa en valor la cultura rural i les tradicions lligades al bosc i l’agricultura de la zona. Els visitants poden gaudir de diverses activitats com tallers sobre treballs forestals, mostres d'oficis tradicionals, exposicions d'artesania local, i degustacions de productes típics de la terra. És una cita per descobrir la riquesa natural i cultural d'aquesta part del Vallès."
@@ -15,6 +16,7 @@
         {
             "id": 2,
             "img": "imgVallgorguina",
+            "authorImg": "Font Imatge: Ajuntament de Vallgorguina",
             "title": "Festa Major de Vallgorguina",
             "description": [
                 "La Festa Major de Vallgorguina és l’esdeveniment més esperat de l'any pels seus habitants, una celebració que uneix tradició, cultura i diversió. Aquesta festa, que té lloc a l’estiu, inclou una gran varietat d'activitats per a totes les edats, oferint des de jocs infantils, activitats esportives i cercaviles fins a balls populars i concerts en directe. La festa major és un moment especial per gaudir del folklore local, amb actuacions de grups de dansa, bastoners i gegants que recorren els carrers del poble.",
@@ -29,6 +31,7 @@
         {
             "id": 3,
             "img": "imgBaronia",
+            "authorImg": "Font Imatge: Compte d'X de la Baronia del Montseny",
             "title": "Festa de la Baronia del Montseny",
             "description": [
                 "La Festa de la Baronia del Montseny és una de les celebracions més importants de Vallgorguina, que se celebra anualment, usualment al mes de maig. Aquest esdeveniment destaca per la seva connexió amb la cultura, tradicions i el patrimoni local de la comarca. La festa s’omple d’activitats per a tots els públics, com ara espectacles musicals, cercaviles, concursos de cultura popular i activitats infantils, que posen en valor la riquesa cultural de la zona.",
@@ -43,6 +46,7 @@
         {
             "id": 4,
             "img": "imgTio",
+            "authorImg": "Font Imatge: Ajuntament de Vallgorguina",
             "title": "Anem a Buscar el Tió",
             "description": [
                 "Aquesta festa és una activitat popular que se celebra cada any el 15 de desembre a Vallgorguina. Aquesta jornada forma part de les celebracions nadalenques del poble i està especialment dissenyada per a les famílies. Els participants, guiats per monitors i ambientats en una atmosfera festiva, es dirigeixen al bosc per a buscar el Tió, una de les figures més arrelades de les tradicions nadalenques catalanes.",
@@ -59,6 +63,7 @@
         {
             "id": 1,
             "img": "imgCanVirgili",
+            "authorImg": "Autor Imatge: Sandri Bitxus",
             "title": "Can Virgili",
             "description": [
                 "El restaurant Can Virgili és un dels espais més encantadors de Vallgorguina, situat en un entorn privilegiat a la zona del Montnegre i el Corredor. Aquest restaurant combina l’encant d’un establiment rústic de muntanya amb l’oferta d’un ambient acollidor i familiar, ideal per als amants de la natura i la tranquil·litat. És un punt de trobada popular per a excursionistes, ciclistes i famílies que desitgen gaudir d'un menjar autèntic després d'un dia d'activitats a l'aire lliure.",
@@ -82,6 +87,7 @@
         {
             "id": 2,
             "img": "imgAndreu",
+            "authorImg": "Autor Imatge: Irene Estrada",
             "title": "Menjars L’Andreu Bar",
             "description": [
                 "Menjars L’Andreu Bar és un establiment popular a Vallgorguina, conegut pel seu ambient acollidor i l'excel·lent oferta gastronòmica de cuina catalana casolana. El local ofereix una varietat de plats tradicionals i tapes elaborades amb productes frescos i de qualitat, amb un menú que inclou opcions per a tots els gustos, des de carns a la brasa fins a guisats de muntanya, passant per tapes variades, entrepans, i plats de temporada. La decoració del bar és rústica i càlida, cosa que convida a relaxar-se i gaudir d'un bon àpat en un ambient agradable.",
@@ -103,6 +109,7 @@
         {
             "id": 3,
             "img": "imgCasal",
+            "authorImg": "Autor Imatge: Monica Roldán",
             "title": "El Casal del Poble",
             "description": [
                 "El Casal del Poble de Vallgorguina és una institució emblemàtica i un punt de trobada vital per a la vida social i cultural del municipi. Situat en el centre del poble, aquest casal acull una gran varietat d'activitats i esdeveniments per a persones de totes les edats, des d'espectacles i concerts fins a xerrades, tallers, i celebracions tradicionals. Amb un ambient acollidor i una programació activa durant tot l'any, El Casal del Poble fomenta la cohesió social i proporciona als veïns un lloc on trobar-se, compartir experiències i gaudir de la vida comunitària.",
@@ -126,6 +133,7 @@
         {
             "id": 4,
             "img": "imgFontMoreu",
+            "authorImg": "Font Imatge: Restaurant la Font de Can Moreu",
             "title": "La Font de Can Moreu",
             "description": [
                 "El Restaurant La Font de Can Moreu és un dels establiments més destacats de Vallgorguina, conegut per la seva cuina autèntica i casolana. Situat en una zona envoltada de natura, el restaurant ofereix un ambient tranquil i familiar, ideal per a gaudir d’un bon àpat després d’una passejada pels entorns naturals de la zona. La seva carta inclou plats típics de la gastronomia catalana, amb una especial atenció a productes de temporada i de proximitat, com ara embotits artesans, carns a la brasa, i guisats tradicionals.",
@@ -147,6 +155,7 @@
         {
             "id": 5,
             "img": "imgFogonsXeremell",
+            "authorImg": "Font Imatge: Revista Baix Montseny",
             "title": "Els Fogons del Xeremell",
             "description": [
                 "Els Fogons del Xeremell és conegut no només per la seva cuina autèntica catalana, sinó també per les seves acollidores instal·lacions situades en un entorn natural de Vallgorguina. Amb un interior decorat amb tocs rústics i tradicionals, aquest restaurant ofereix un ambient càlid i familiar on els clients poden gaudir de plats clàssics de la gastronomia catalana, com carns a la brasa, guisats i tapes, tot preparat amb productes frescos i locals.",
@@ -171,6 +180,7 @@
         {
             "id": 1,
             "img": "imgOlzinelles",
+            "authorImg": "Font Imatge: Natura Local",
             "title": "Cap a la Vall veïna d'Olzinelles",
             "description": [
                 "Farem una incursió al nord de Vallgorguina, en direcció al Montnegre, per conèixer la vall veïna d'Olzinelles, que forma part del terme municipal de Sant Celoni.",
@@ -189,6 +199,7 @@
         {
             "id": 2,
             "img": "imgDolmen",
+            "authorImg": "Fon Imatge: Blog Escapada amb nens",
             "title": "El Dolmen de la Pedra Gentil",
             "description": [
                 "La ruta al dolmen de Vallgorguina és una excursió que combina natura, tranquil·litat i història. Situat al parc natural del Montnegre i el Corredor, aquest camí ofereix una immersió en un entorn de gran bellesa, on els caminants poden gaudir de la vegetació autòctona i el paisatge montanyós de la zona. El recorregut és moderat i ideal per a persones que busquen una activitat relaxant però alhora estimulant.",
@@ -205,6 +216,7 @@
         {
             "id": 3,
             "img": "imgTourdera",
+            "authorImg": "Font Imatge: Pàgina web Tourdera",
             "title": "Ruta TOURDERA",
             "description": [
                 "Si voleu fer el recorregut de la Tourdera entre Vallgorguina i Sant Celoni, heu de saber que que es tracta d’un itinerari d’enllaç des del nucli de Vallgorguina fins a Sant Celoni, i que només una petita part del recorregut forma part de l’itinerari principal de la Tourdera. Tot i així, es tracta d’un tram molt atractiu que aprofita bona part de la Via Verda de Vallgorguina. Si voleu fer l’itinerari, aquest s’inicia al Punt d’Informació Turística de Vallgorguina, on trobareu el plafó de la ruta i la primera banderola de seguiment que us indica l’itinerari. Es tracta d’un tram de 9,3 quilòmetres de longitud, amb un desnivell de pujada de 118 metres, i una dificultat global mitjana.",
@@ -222,6 +234,7 @@
         {
             "id": 1,
             "img": "imgDinamic",
+            "authorImg": "Font Imatge: Dinàmic Pàdel Indoor",
             "title": "Dinàmic Pàdel Indoor",
             "description": [
                 "Dinàmic Pàdel Indoor és un complex esportiu dedicat a l'esport de pàdel, ubicat a Vallgorguina. Aquesta instal·lació destaca per les seves pistes cobertes, que permeten jugar en qualsevol moment de l'any, independentment de les condicions meteorològiques. El centre compta amb pistes de gran qualitat, dissenyades per a satisfer les necessitats de jugadors de tots els nivells.",
@@ -245,6 +258,7 @@
         {
             "id": 2,
             "img": "imgMuseu",
+            "authorImg": "Autor Imatge: Angie AKS",
             "title": "Museu del bosc i la pagesia",
             "description": [
                 "El Museu del Bosc i la Pagesia de Vallgorguina és un espai dedicat a la preservació i exposició del ric patrimoni rural i natural del municipi. Inaugurat el 2016, aquest museu està situat a la casa remodelada de Can Mainou, cedida per Joan Mainou al municipi. ",
@@ -266,6 +280,7 @@
         {
             "id": 3,
             "img": "imgPoliesportiu",
+            "authorImg": "Autor Imatge: Xavi Planells",
             "title": "Poliesportiu",
             "description": [
                 "El Poliesportiu de Vallgorguina és un centre esportiu clau a la comunitat, conegut per la seva àmplia oferta d'activitats i instal·lacions. A més de la pista, el poliesportiu disposa d'altres espais per a la pràctica de diferents disciplines, com el bàsquet, el futbol sala i altres esports.",
