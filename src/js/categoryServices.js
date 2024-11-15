@@ -88,6 +88,7 @@ function loadInterestPoint(interestPoint) {
     `;
     document.getElementById('title').textContent = interestPoint.title;
     document.getElementById('img').src = images[interestPoint.img];
+    document.getElementById('img').alt = interestPoint.img;
     document.getElementById('author').textContent = interestPoint.authorImg;
     document.getElementById('direction').innerHTML = `<p><i class="fas fa-map-marker-alt"></i> ${interestPoint.direction}</p>`;
 
