@@ -1,17 +1,23 @@
 .enlaces {
-    li {
-        margin: 1rem;
-        .title {
-            font-weight: bolder;
-            font-size: 1.6rem;
+    .container {
+        ul {
+            li {
+                margin: 1rem;
+                .title {
+                    font-weight: bolder;
+                    font-size: 1.6rem;
+                }
+                .description,
+                .link {
+                    font-size: 1.2rem;
+                }
+                .link:hover {
+                    color: $secondary-color-dark;
+                    text-decoration: none;
+                }
+            }
         }
-        .description,
-        .link {
-            font-size: 1.3rem;
-        }
-        .link:hover {
-            color: $secondary-color-dark;
-            text-decoration: none;
-        }
+
     }
+
 }

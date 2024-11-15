@@ -56,10 +56,6 @@
     @include responsive(medium-desktop) {
         section {
             width: 90vw;
-            .display-section {
-                display: flex;
-                flex-direction: column;
-            }
         }
     }
 }
