@@ -12,5 +12,5 @@ navLinks.forEach(link => {
 
 //Función onclick redirección
 window.redirect = function(page) {
-    window.location.href=`${page}.html`;
+    window.location.href=`${page}`;
 }
