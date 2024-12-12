@@ -1,5 +1,6 @@
 // Definir breakpoints
-$mobile: 768px;
+$mobile: 480px;
+$tablet: 768px;
 $small-desktop: 1024px;
 $medium-desktop: 1280px;
 $large-desktop: 1440px;
@@ -17,7 +18,12 @@ $large-desktop: 1440px;
     }
   }
   @else if $size == small-desktop {
-    @media (min-width: ($mobile + 1)) and (max-width: $small-desktop) {
+    @media (min-width: ($tablet + 1)) and (max-width: $small-desktop) {
+      @content;
+    }
+  }
+  @else if $size == tablet {
+    @media (min-width: ($mobile + 1)) and (max-width: $tablet) {
       @content;
     }
   }
