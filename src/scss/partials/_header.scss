@@ -1,11 +1,23 @@
 .header {
   background-color: $primary-color-dark;
-  padding: 1rem;
+  padding: 1.5rem;
   text-align: center;
+  display: flex;
+  justify-content: space-between;
+
+  .logo-container {
+    display: flex;
+    h1 {
+      font-family: "Playwrite GB S", cursive;
+      color: $primary-color-light;
+    }
+  }
 
   nav {
     ul {
+      height: 100%;
       display: flex;
+      align-items: center;
       li {
         list-style-type: none;
         margin-right: 1rem;
@@ -28,25 +40,21 @@
 
   // Estilos para móviles
   @include responsive(mobile) {
-    padding: 0.5rem;
     font-size: 1rem;
   }
 
   // Estilos para escritorio pequeño
   @include responsive(small-desktop) {
-    padding: 1.5rem;
     font-size: 1.2rem;
   }
 
   // Estilos para escritorio mediano
   @include responsive(medium-desktop) {
-    padding: 2rem;
     font-size: 1.4rem;
   }
 
   // Estilos para escritorio grande
   @include responsive(large-desktop) {
-    padding: 3rem;
     font-size: 1.6rem;
   }
 }
