@@ -41,17 +41,23 @@
         }
       }
     }
+
+    // Estilos para tablets
+    @include responsive(tablet) {
+      padding: 1rem;
+      font-size: 1.2rem;
+    }
   
     // Estilos para escritorio pequeño
     @include responsive(small-desktop) {
       padding: 1.5rem;
-      font-size: 1.2rem;
+      font-size: 1.5rem;
     }
   
     // Estilos para escritorio mediano
     @include responsive(medium-desktop) {
       padding: 2rem;
-      font-size: 1.4rem;
+      font-size: 1.5rem;
     }
   
     // Estilos para escritorio grande

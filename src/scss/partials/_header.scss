@@ -63,14 +63,14 @@
   }
   // Estilos para tablets
   @include responsive(tablet) {
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     h1 {
       font-size: 1.7rem;
     }
   }
   // Estilos para escritorio pequeño
   @include responsive(small-desktop) {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     h1 {
       font-size: 1.9rem;
     }

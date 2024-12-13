@@ -42,6 +42,16 @@
             }
         }
     }
+    // Estilos para escritorio tablets
+    @include responsive(tablet) {
+        section {
+            width: 90vw;
+            .display-section {
+                display: flex;
+                flex-direction: column;
+            }
+        }
+    }
     // Estilos para escritorio pequeño
     @include responsive(small-desktop) {
         section {
