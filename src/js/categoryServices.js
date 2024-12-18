@@ -412,6 +412,12 @@ function loadInterestPoint(interestPoint) {
         ${images[interestPoint.img1240Jpg]} 1240w,
         ${images[interestPoint.img1400Jpg]} 1400w
         "
+        sizes="
+        (max-width: 480px) 440px,
+        (max-width: 768px) 728px,
+        (max-width: 1024px) 984px,
+        (max-width: 1280px) 1240px,
+        1400px"
     />
     `;
     // document.getElementById('img').alt = interestPoint.img;

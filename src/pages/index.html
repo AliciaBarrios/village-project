@@ -12,13 +12,79 @@
     <main class="container">
          <div class="img-container">
             <div class="clipped-image">
-                <img src="../assets/img_historia.jpg" alt="Ajuntament de Vallgorguina">
+                <picture>
+                    <!-- Versión WebP para navegadores modernos -->
+                    <source 
+                        srcset="
+                        ../assets/img-historia-440.webp
+                        ../assets/img-historia-728.webp 1.5x,
+                        ../assets/img-historia-960.webp 2x,
+                        ../assets/img-historia-1200.webp 3x
+                        " 
+                        type="image/webp" 
+                    />
+                   <!-- Fallback JPG para navegadores antiguos -->
+                    <img 
+                        src="../assets/img-historia-728.jpg" 
+                        alt="Ajuntament de Vallgorguina"
+                        srcset="
+                        ../assets/img-historia-440.jpg
+                        ../assets/img-historia-728.jpg 1.5x,
+                        ../assets/img-historia-960.jpg 2x,
+                        ../assets/img-historia-1200.jpg 3x
+                        "
+                       />
+                </picture>
             </div>
             <div class="clipped-image">
-                <img src="../assets/img_medioambiente.jpg" alt="Paisatge de Vallgorguina">
+                <picture>
+                    <!-- Versión WebP para navegadores modernos -->
+                    <source 
+                        srcset="
+                        ../assets/img-medioambiente-440.webp
+                        ../assets/img-medioambiente-728.webp 1.5x,
+                        ../assets/img-medioambiente-960.webp 2x,
+                        ../assets/img-medioambiente-1200.webp 3x
+                        " 
+                        type="image/webp" 
+                    />
+                   <!-- Fallback JPG para navegadores antiguos -->
+                    <img 
+                        src="../assets/img-medioambiente-728.jpg" 
+                        alt="Paisatge de Vallgorguina"
+                        srcset="
+                        ../assets/img-medioambiente-440.jpg
+                        ../assets/img-medioambiente-728.jpg 1.5x,
+                        ../assets/img-medioambiente-960.jpg 2x,
+                        ../assets/img-medioambiente-1200.jpg 3x
+                        "
+                       />
+                </picture>
             </div>
             <div class="clipped-image">
-                <img src="../assets/img_cultura.jpg" alt="Figura de bruixa tallada en fusta">
+                <picture>
+                    <!-- Versión WebP para navegadores modernos -->
+                    <source 
+                        srcset="
+                        ../assets/img-cultura-440.webp
+                        ../assets/img-cultura-728.webp 1.5x,
+                        ../assets/img-cultura-960.webp 2x,
+                        ../assets/img-cultura-1200.webp 3x
+                        " 
+                        type="image/webp" 
+                    />
+                   <!-- Fallback JPG para navegadores antiguos -->
+                    <img 
+                        src="../assets/img-cultura-728.jpg" 
+                        alt="Figura de bruixa tallada en fusta"
+                        srcset="
+                        ../assets/img-cultura-440.jpg
+                        ../assets/img-cultura-728.jpg 1.5x,
+                        ../assets/img-cultura-960.jpg 2x,
+                        ../assets/img-cultura-1200.jpg 3x
+                        "
+                       />
+                </picture>
             </div>
          </div>
 
