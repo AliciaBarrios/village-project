@@ -15,7 +15,29 @@
             <h2>Història de Vallgorguina</h2>
             <div class="display-section">
                 <figure class="multimedia">
-                    <img src="./../assets/img_historia.jpg" alt="Imatge Ajuntament Vallgorguina">
+                    <picture>
+                        <!-- Versión WebP para navegadores modernos -->
+                        <source 
+                            srcset="
+                            ./../assets/img-historia-440.webp 440w,
+                            ./../assets/img-historia-728.webp 728w,
+                            ./../assets/img-historia-960.webp 960w,
+                            ./../assets/img-historia-1200.webp 1200w
+                            " 
+                            sizes="
+                            (max-width: 480px) 440px,
+                            (max-width: 768px) 728px,
+                            (max-width: 984px) 960px,
+                            1200px"
+                
+                            type="image/webp" 
+                        />
+                        <!-- Fallback JPG para navegadores antiguos -->
+                        <img 
+                            src="./../assets/img_historia.jpg" 
+                            alt="Imatge Ajuntament Vallgorguina"
+                        />
+                    </picture>
                     <figcaption>Font Imatge: Associació Catala de Municipis</figcaption>
                 </figure>
                 <div class="text">

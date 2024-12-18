@@ -67,6 +67,14 @@
     h1 {
       font-size: 1.7rem;
     }
+
+    nav {
+      ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+    }
   }
   // Estilos para escritorio pequeño
   @include responsive(small-desktop) {

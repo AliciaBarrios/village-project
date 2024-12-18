@@ -35,27 +35,31 @@
 
 .container-targetas {
     display: none;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     gap: 2rem; 
+    max-width: inherit; 
     a {
         text-decoration: none;
-
+        max-width: 100%;
         .targeta {
             display: flex;
             flex-direction: column;
             border-radius: 30px;
             background-color: white;
-            margin: 2rem;
+            margin: 1rem auto;
             overflow: hidden;
-            height: 600px;
+            max-width: 100%;
+            width: 300px; 
+            height: 475px;
         
             .multimedia {
               display: flex;
               justify-content: center;
-              align-items: center; 
+              align-items: flex-start; 
               height: 70%;  
               overflow: hidden;
-        
+              background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), transparent);
+
               img {
                 width: 100%; 
                 height: 100%;  
@@ -64,11 +68,29 @@
                 border-radius: inherit;
               }
             }
+            .img-gradient {
+                /* Aplicar máscara con degradado ajustado */
+                -webkit-mask-image: linear-gradient(to bottom, 
+                rgba(0, 0, 0, 1) 80%, /* Mantiene opaco el 80% superior */
+                rgba(0, 0, 0, 0) 100% /* Transparencia en el 20% final */
+                );
+                mask-image: linear-gradient(to bottom, 
+                rgba(0, 0, 0, 1) 80%, 
+                rgba(0, 0, 0, 0) 100%
+                );
+                -webkit-mask-repeat: no-repeat;
+                mask-repeat: no-repeat;
+                -webkit-mask-size: 100% 100%;
+                mask-size: 100% 100%;
+            }
         
             .texto {
                 margin: 1rem;
                 text-align: justify;
-        
+                height: 50%; 
+                h3 {
+                    margin-bottom: 1.5rem;
+                }
                 h3:hover {
                     color: $secondary-color-dark;
                 }
@@ -82,36 +104,10 @@
     .categories {
         .container {
             width: 100vw;
-            .container-targetas {
-                grid-template-columns: repeat(1, 1fr);
-                .desplegable {
-                    margin: 0.5rem;
-                }
+            .desplegable {
+                margin: 0.5rem;
             }
         }
     }
 }
 
-// Estilos para escritorio pequeño
-@include responsive(small-desktop) {
-    .categories {
-        .container {
-
-            .container-targetas {
-                grid-template-columns: repeat(2, 1fr);
-            }
-        }
-    }
-}
-
-// Estilos para escritorio mediano
-@include responsive(medium-desktop) {
-    .categories {
-        .container {
-
-            .container-targetas {
-                grid-template-columns: repeat(2, 1fr);
-            }
-        }
-    }
-}
