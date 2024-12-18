@@ -4,41 +4,74 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    .display-links {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .display-row {
+      display: flex;
+      flex-direction: row;
+    }
   
     .legal-links, 
-    .social-networks {
-      ul {
-        display: flex;
-        li {
-          list-style-type: none;
-          margin-right: 1rem;
-          .footer-link {
-            text-decoration: none;
-            color: $primary-color-light;
-  
-            &:hover {
-                color: $secondary-color-dark;
-            }
-          }
-          .active-link {
-            color: $secondary-color-dark;
+    .social-networks,
+    .app-nav-links {
+      li {
+        list-style-type: none;
+        margin-right: 1rem;
+        .footer-link {
+          text-decoration: none;
+          color: $primary-color-light;
+
+          &:hover {
+              color: $secondary-color-dark;
           }
         }
+        .active-link {
+          color: $secondary-color-dark;
+        }
       }
+    }
+
+    .legal-links, 
+    .app-nav-links {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      text-align: justify;
+    }
+
+    .social-networks {
+      display: flex;
+      width: 28vw;
+    }
+
+    .logo {
+      width: 80px;
+      height: auto;
     }
   
     // Estilos para móviles
     @include responsive(mobile) {
-      padding: 0.5rem;
+      padding: 2rem 1rem;
       font-size: 1rem;
-      .legal-links {
-        ul {
-          display: grid;
-          grid-template-columns: repeat(2, 1fr);
-          li {
-            margin-bottom: 0.5rem;
-          }
+      justify-content: space-around;
+      .display-links {
+        display: flex;
+        flex-direction: row;
+      }
+      .legal-links,
+      .app-nav-links {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        width: fit-content;
+        li {
+          margin-bottom: 0.5rem;
         }
+      }
+      .logo {
+        display: none;
       }
     }
 
@@ -46,12 +79,38 @@
     @include responsive(tablet) {
       padding: 1rem;
       font-size: 1.2rem;
+      .display-links {
+        display: flex;
+        flex-direction: row;
+      }
+      .legal-links,
+      .app-nav-links {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        width: fit-content;
+        li {
+          margin-bottom: 0.5rem;
+        }
+      }
     }
   
     // Estilos para escritorio pequeño
     @include responsive(small-desktop) {
       padding: 1.5rem;
       font-size: 1.5rem;
+      .display-links {
+        display: flex;
+        flex-direction: row;
+      }
+      .legal-links,
+      .app-nav-links {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        width: fit-content;
+        li {
+          margin-bottom: 0.5rem;
+        }
+      }
     }
   
     // Estilos para escritorio mediano

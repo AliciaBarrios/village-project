@@ -420,7 +420,6 @@ function loadInterestPoint(interestPoint) {
         1400px"
     />
     `;
-    // document.getElementById('img').alt = interestPoint.img;
     document.getElementById('author').textContent = interestPoint.authorImg;
     document.getElementById('direction').innerHTML = `<p><i class="fas fa-map-marker-alt"></i> ${interestPoint.direction}</p>`;
 
