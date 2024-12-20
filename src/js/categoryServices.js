@@ -319,9 +319,9 @@ function showItems(categoryId) {
                         <source 
                             srcset="
                             ${images[item.img440WebP]},
-                            ${images[item.img728WebP]} 1.5x,
-                            ${images[item.img984WebP]} 2x,
-                            ${images[item.img1240WebP]} 2.5x,
+                            ${images[item.img728WebP]} 1.65x,
+                            ${images[item.img984WebP]} 2.2x,
+                            ${images[item.img1240WebP]} 2.8x,
                             ${images[item.img1400WebP]} 3x
                             " 
                             type="image/webp" 
@@ -333,9 +333,9 @@ function showItems(categoryId) {
                             alt="${item.alt}"
                             srcset="
                             ${images[item.img440Jpg]}
-                            ${images[item.img728Jpg]} 1.5x,
-                            ${images[item.img984Jpg]} 2x,
-                            ${images[item.img1240Jpg]} 2.5x,
+                            ${images[item.img728Jpg]} 1.65x,
+                            ${images[item.img984Jpg]} 2.2x,
+                            ${images[item.img1240Jpg]} 2.8x,
                             ${images[item.img1400Jpg]} 3x,
                             "
                         />
