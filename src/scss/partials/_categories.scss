@@ -90,9 +90,9 @@
                 height: 50%; 
                 h3 {
                     margin-bottom: 1.5rem;
-                }
-                h3:hover {
-                    color: $secondary-color-dark;
+                    &:hover {
+                        color: $secondary-color-dark;
+                    }
                 }
             }
         }

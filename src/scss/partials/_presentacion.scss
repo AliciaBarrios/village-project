@@ -9,8 +9,8 @@
             fill: none; 
             stroke: $primary-color-dark; 
             stroke-width: 1px; 
-            stroke-dasharray: 700; /* Longitud total del trazo */
-            stroke-dashoffset: 700; /* Oculta el trazo */
+            stroke-dasharray: 700; /* Longitud total del trazo sin espacios*/
+            stroke-dashoffset: 700; /* Para ocultar el 100% del trazo este valor debe ser igual al anterior */
             font-size: 2.5rem;
         }
         
