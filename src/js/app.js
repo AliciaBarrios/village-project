@@ -17,7 +17,6 @@ const observer = new IntersectionObserver(
 );
 
 animatedTexts.forEach((text) => observer.observe(text));
-  
 
 //código para marcar la opción de navegación donde se encuentra el usuario en cada momento
 const pathname = window.location.pathname;

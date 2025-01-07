@@ -331,6 +331,7 @@ function showItems(categoryId) {
                             class="img-gradient"
                             src="${images[item.img1240Jpg]}" 
                             alt="${item.alt}"
+                            loading="lazy"
                             srcset="
                             ${images[item.img440Jpg]}
                             ${images[item.img728Jpg]} 1.65x,
@@ -405,6 +406,7 @@ function loadInterestPoint(interestPoint) {
     <img 
         src="${images[interestPoint.img1240Jpg]}" 
         alt="${interestPoint.alt}"
+        loading="lazy"
         srcset="
         ${images[interestPoint.img440Jpg]} 440w,
         ${images[interestPoint.img728Jpg]} 728w,
@@ -487,4 +489,6 @@ export function loadUrlInterestPoint() {
 }
 
 loadUrlInterestPoint();
+
+
 
