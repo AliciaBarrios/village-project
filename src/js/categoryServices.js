@@ -1,308 +1,156 @@
 import data from "../data.json";
 
-//Importación imágenes
-import imgPagesia1400Jpg from '../assets/img-pagesia-1400.jpg';
-import imgPagesia1240Jpg from '../assets/img-pagesia-1240.jpg';
-import imgPagesia984Jpg from '../assets/img-pagesia-984.jpg';
-import imgPagesia728Jpg from '../assets/img-pagesia-728.jpg';
-import imgPagesia440Jpg from '../assets/img-pagesia-440.jpg';
-import imgPagesia1400WebP from '../assets/img-pagesia-1400.webp';
-import imgPagesia1240WebP from '../assets/img-pagesia-1240.webp';
-import imgPagesia984WebP from '../assets/img-pagesia-984.webp';
-import imgPagesia728WebP from '../assets/img-pagesia-728.webp';
-import imgPagesia440WebP from '../assets/img-pagesia-440.webp';
-import imgFontMoreu1400Jpg from '../assets/img-font-moreu-1400.jpg';
-import imgFontMoreu1240Jpg from '../assets/img-font-moreu-1240.jpg';
-import imgFontMoreu984Jpg from '../assets/img-font-moreu-984.jpg';
-import imgFontMoreu728Jpg from '../assets/img-font-moreu-728.jpg';
-import imgFontMoreu440Jpg from '../assets/img-font-moreu-440.jpg';
-import imgFontMoreu1400WebP from '../assets/img-font-moreu-1400.webp';
-import imgFontMoreu1240WebP from '../assets/img-font-moreu-1240.webp';
-import imgFontMoreu984WebP from '../assets/img-font-moreu-984.webp';
-import imgFontMoreu728WebP from '../assets/img-font-moreu-728.webp';
-import imgFontMoreu440WebP from '../assets/img-font-moreu-440.webp';
-import imgAndreu1400Jpg from '../assets/img-andreu-1400.jpg';
-import imgAndreu1240Jpg from '../assets/img-andreu-1240.jpg';
-import imgAndreu984Jpg from '../assets/img-andreu-984.jpg';
-import imgAndreu728Jpg from '../assets/img-andreu-728.jpg';
-import imgAndreu440Jpg from '../assets/img-andreu-440.jpg';
-import imgAndreu1400WebP from '../assets/img-andreu-1400.webp';
-import imgAndreu1240WebP from '../assets/img-andreu-1240.webp';
-import imgAndreu984WebP from '../assets/img-andreu-984.webp';
-import imgAndreu728WebP from '../assets/img-andreu-728.webp';
-import imgAndreu440WebP from '../assets/img-andreu-440.webp';
-import imgBaronia1400Jpg from '../assets/img-baronia-1400.jpg';
-import imgBaronia1240Jpg from '../assets/img-baronia-1240.jpg';
-import imgBaronia984Jpg from '../assets/img-baronia-984.jpg';
-import imgBaronia728Jpg from '../assets/img-baronia-728.jpg';
-import imgBaronia440Jpg from '../assets/img-baronia-440.jpg';
-import imgBaronia1400WebP from '../assets/img-baronia-1400.webp';
-import imgBaronia1240WebP from '../assets/img-baronia-1240.webp';
-import imgBaronia984WebP from '../assets/img-baronia-984.webp';
-import imgBaronia728WebP from '../assets/img-baronia-728.webp';
-import imgBaronia440WebP from '../assets/img-baronia-440.webp';
-import imgCanVirgili1400Jpg from '../assets/img-can-virgili-1400.jpg';
-import imgCanVirgili1240Jpg from '../assets/img-can-virgili-1240.jpg';
-import imgCanVirgili984Jpg from '../assets/img-can-virgili-984.jpg';
-import imgCanVirgili728Jpg from '../assets/img-can-virgili-728.jpg';
-import imgCanVirgili440Jpg from '../assets/img-can-virgili-440.jpg';
-import imgCanVirgili1400WebP from '../assets/img-can-virgili-1400.webp';
-import imgCanVirgili1240WebP from '../assets/img-can-virgili-1240.webp';
-import imgCanVirgili984WebP from '../assets/img-can-virgili-984.webp';
-import imgCanVirgili728WebP from '../assets/img-can-virgili-728.webp';
-import imgCanVirgili440WebP from '../assets/img-can-virgili-440.webp';
-import imgCasal1400Jpg from '../assets/img-casal-1400.jpg';
-import imgCasal1240Jpg from '../assets/img-casal-1240.jpg';
-import imgCasal984Jpg from '../assets/img-casal-984.jpg';
-import imgCasal728Jpg from '../assets/img-casal-728.jpg';
-import imgCasal440Jpg from '../assets/img-casal-440.jpg';
-import imgCasal1400WebP from '../assets/img-casal-1400.webp';
-import imgCasal1240WebP from '../assets/img-casal-1240.webp';
-import imgCasal984WebP from '../assets/img-casal-984.webp';
-import imgCasal728WebP from '../assets/img-casal-728.webp';
-import imgCasal440WebP from '../assets/img-casal-440.webp';
-import imgFogonsXeremell1400Jpg from '../assets/img-xeremell-1400.jpg';
-import imgFogonsXeremell1240Jpg from '../assets/img-xeremell-1240.jpg';
-import imgFogonsXeremell984Jpg from '../assets/img-xeremell-984.jpg';
-import imgFogonsXeremell728Jpg from '../assets/img-xeremell-728.jpg';
-import imgFogonsXeremell440Jpg from '../assets/img-xeremell-440.jpg';
-import imgFogonsXeremell1400WebP from '../assets/img-xeremell-1400.webp';
-import imgFogonsXeremell1240WebP from '../assets/img-xeremell-1240.webp';
-import imgFogonsXeremell984WebP from '../assets/img-xeremell-984.webp';
-import imgFogonsXeremell728WebP from '../assets/img-xeremell-728.webp';
-import imgFogonsXeremell440WebP from '../assets/img-xeremell-440.webp';
-import imgDinamic1400Jpg from '../assets/img-dinamic-1400.jpg';
-import imgDinamic1240Jpg from '../assets/img-dinamic-1240.jpg';
-import imgDinamic984Jpg from '../assets/img-dinamic-984.jpg';
-import imgDinamic728Jpg from '../assets/img-dinamic-728.jpg';
-import imgDinamic440Jpg from '../assets/img-dinamic-440.jpg';
-import imgDinamic1400WebP from '../assets/img-dinamic-1400.webp';
-import imgDinamic1240WebP from '../assets/img-dinamic-1240.webp';
-import imgDinamic984WebP from '../assets/img-dinamic-984.webp';
-import imgDinamic728WebP from '../assets/img-dinamic-728.webp';
-import imgDinamic440WebP from '../assets/img-dinamic-440.webp';
-import imgDolmen1400Jpg from '../assets/img-dolmen-1400.jpg';
-import imgDolmen1240Jpg from '../assets/img-dolmen-1240.jpg';
-import imgDolmen984Jpg from '../assets/img-dolmen-984.jpg';
-import imgDolmen728Jpg from '../assets/img-dolmen-728.jpg';
-import imgDolmen440Jpg from '../assets/img-dolmen-440.jpg';
-import imgDolmen1400WebP from '../assets/img-dolmen-1400.webp';
-import imgDolmen1240WebP from '../assets/img-dolmen-1240.webp';
-import imgDolmen984WebP from '../assets/img-dolmen-984.webp';
-import imgDolmen728WebP from '../assets/img-dolmen-728.webp';
-import imgDolmen440WebP from '../assets/img-dolmen-440.webp';
-import imgPoliesportiu1400Jpg from '../assets/img-poliesportiu-1400.jpg';
-import imgPoliesportiu1240Jpg from '../assets/img-poliesportiu-1240.jpg';
-import imgPoliesportiu984Jpg from '../assets/img-poliesportiu-984.jpg';
-import imgPoliesportiu728Jpg from '../assets/img-poliesportiu-728.jpg';
-import imgPoliesportiu440Jpg from '../assets/img-poliesportiu-440.jpg';
-import imgPoliesportiu1400WebP from '../assets/img-poliesportiu-1400.webp';
-import imgPoliesportiu1240WebP from '../assets/img-poliesportiu-1240.webp';
-import imgPoliesportiu984WebP from '../assets/img-poliesportiu-984.webp';
-import imgPoliesportiu728WebP from '../assets/img-poliesportiu-728.webp';
-import imgPoliesportiu440WebP from '../assets/img-poliesportiu-440.webp';
-import imgOlzinelles1400Jpg from '../assets/img-olzinelles-1400.jpg';
-import imgOlzinelles1240Jpg from '../assets/img-olzinelles-1240.jpg';
-import imgOlzinelles984Jpg from '../assets/img-olzinelles-984.jpg';
-import imgOlzinelles728Jpg from '../assets/img-olzinelles-728.jpg';
-import imgOlzinelles440Jpg from '../assets/img-olzinelles-440.jpg';
-import imgOlzinelles1400WebP from '../assets/img-olzinelles-1400.webp';
-import imgOlzinelles1240WebP from '../assets/img-olzinelles-1240.webp';
-import imgOlzinelles984WebP from '../assets/img-olzinelles-984.webp';
-import imgOlzinelles728WebP from '../assets/img-olzinelles-728.webp';
-import imgOlzinelles440WebP from '../assets/img-olzinelles-440.webp';
-import imgMuseu1400Jpg from '../assets/img-museu-1400.jpg';
-import imgMuseu1240Jpg from '../assets/img-museu-1240.jpg';
-import imgMuseu984Jpg from '../assets/img-museu-984.jpg';
-import imgMuseu728Jpg from '../assets/img-museu-728.jpg';
-import imgMuseu440Jpg from '../assets/img-museu-440.jpg';
-import imgMuseu1400WebP from '../assets/img-museu-1400.webp';
-import imgMuseu1240WebP from '../assets/img-museu-1240.webp';
-import imgMuseu984WebP from '../assets/img-museu-984.webp';
-import imgMuseu728WebP from '../assets/img-museu-728.webp';
-import imgMuseu440WebP from '../assets/img-museu-440.webp';
-import imgTio1400Jpg from '../assets/img-tio-1400.jpg';
-import imgTio1240Jpg from '../assets/img-tio-1240.jpg';
-import imgTio984Jpg from '../assets/img-tio-984.jpg';
-import imgTio728Jpg from '../assets/img-tio-728.jpg';
-import imgTio440Jpg from '../assets/img-tio-440.jpg';
-import imgTio1400WebP from '../assets/img-tio-1400.webp';
-import imgTio1240WebP from '../assets/img-tio-1240.webp';
-import imgTio984WebP from '../assets/img-tio-984.webp';
-import imgTio728WebP from '../assets/img-tio-728.webp';
-import imgTio440WebP from '../assets/img-tio-440.webp';
-import imgVallgorguina1400Jpg from '../assets/img-vallgorguina-1400.jpg';
-import imgVallgorguina1240Jpg from '../assets/img-vallgorguina-1240.jpg';
-import imgVallgorguina984Jpg from '../assets/img-vallgorguina-984.jpg';
-import imgVallgorguina728Jpg from '../assets/img-vallgorguina-728.jpg';
-import imgVallgorguina440Jpg from '../assets/img-vallgorguina-440.jpg';
-import imgVallgorguina1400WebP from '../assets/img-vallgorguina-1400.webp';
-import imgVallgorguina1240WebP from '../assets/img-vallgorguina-1240.webp';
-import imgVallgorguina984WebP from '../assets/img-vallgorguina-984.webp';
-import imgVallgorguina728WebP from '../assets/img-vallgorguina-728.webp';
-import imgVallgorguina440WebP from '../assets/img-vallgorguina-440.webp';
-import imgTourdera1400Jpg from '../assets/img-tourdera-1400.jpg';
-import imgTourdera1240Jpg from '../assets/img-tourdera-1240.jpg';
-import imgTourdera984Jpg from '../assets/img-tourdera-984.jpg';
-import imgTourdera728Jpg from '../assets/img-tourdera-728.jpg';
-import imgTourdera440Jpg from '../assets/img-tourdera-440.jpg';
-import imgTourdera1400WebP from '../assets/img-tourdera-1400.webp';
-import imgTourdera1240WebP from '../assets/img-tourdera-1240.webp';
-import imgTourdera984WebP from '../assets/img-tourdera-984.webp';
-import imgTourdera728WebP from '../assets/img-tourdera-728.webp';
-import imgTourdera440WebP from '../assets/img-tourdera-440.webp';
-
 const images = {
-    'imgPagesia1400Jpg': imgPagesia1400Jpg,
-    'imgPagesia1240Jpg': imgPagesia1240Jpg,
-    'imgPagesia984Jpg': imgPagesia984Jpg,
-    'imgPagesia728Jpg': imgPagesia728Jpg,
-    'imgPagesia440Jpg': imgPagesia440Jpg,
-    'imgPagesia1400WebP': imgPagesia1400WebP,
-    'imgPagesia1240WebP': imgPagesia1240WebP,
-    'imgPagesia984WebP': imgPagesia984WebP,
-    'imgPagesia728WebP': imgPagesia728WebP,
-    'imgPagesia440WebP': imgPagesia440WebP,
-    'imgFontMoreu1400Jpg': imgFontMoreu1400Jpg,
-    'imgFontMoreu1240Jpg': imgFontMoreu1240Jpg,
-    'imgFontMoreu984Jpg': imgFontMoreu984Jpg,
-    'imgFontMoreu728Jpg': imgFontMoreu728Jpg,
-    'imgFontMoreu440Jpg': imgFontMoreu440Jpg,
-    'imgFontMoreu1400WebP': imgFontMoreu1400WebP,
-    'imgFontMoreu1240WebP': imgFontMoreu1240WebP,
-    'imgFontMoreu984WebP': imgFontMoreu984WebP,
-    'imgFontMoreu728WebP': imgFontMoreu728WebP,
-    'imgFontMoreu440WebP': imgFontMoreu440WebP,
-    'imgAndreu1400Jpg': imgAndreu1400Jpg,
-    'imgAndreu1240Jpg': imgAndreu1240Jpg,
-    'imgAndreu984Jpg': imgAndreu984Jpg,
-    'imgAndreu728Jpg': imgAndreu728Jpg,
-    'imgAndreu440Jpg': imgAndreu440Jpg,
-    'imgAndreu1400WebP': imgAndreu1400WebP,
-    'imgAndreu1240WebP': imgAndreu1240WebP,
-    'imgAndreu984WebP': imgAndreu984WebP,
-    'imgAndreu728WebP': imgAndreu728WebP,
-    'imgAndreu440WebP': imgAndreu440WebP,
-    'imgBaronia1400Jpg': imgBaronia1400Jpg,
-    'imgBaronia1240Jpg': imgBaronia1240Jpg,
-    'imgBaronia984Jpg': imgBaronia984Jpg,
-    'imgBaronia728Jpg': imgBaronia728Jpg,
-    'imgBaronia440Jpg': imgBaronia440Jpg,
-    'imgBaronia1400WebP': imgBaronia1400WebP,
-    'imgBaronia1240WebP': imgBaronia1240WebP,
-    'imgBaronia984WebP': imgBaronia984WebP,
-    'imgBaronia728WebP': imgBaronia728WebP,
-    'imgBaronia440WebP': imgBaronia440WebP,
-    'imgCanVirgili1400Jpg': imgCanVirgili1400Jpg,
-    'imgCanVirgili1240Jpg': imgCanVirgili1240Jpg,
-    'imgCanVirgili984Jpg': imgCanVirgili984Jpg,
-    'imgCanVirgili728Jpg': imgCanVirgili728Jpg,
-    'imgCanVirgili440Jpg': imgCanVirgili440Jpg,
-    'imgCanVirgili1400WebP': imgCanVirgili1400WebP,
-    'imgCanVirgili1240WebP': imgCanVirgili1240WebP,
-    'imgCanVirgili984WebP': imgCanVirgili984WebP,
-    'imgCanVirgili728WebP': imgCanVirgili728WebP,
-    'imgCanVirgili440WebP': imgCanVirgili440WebP,
-    'imgCasal1400Jpg': imgCasal1400Jpg,
-    'imgCasal1240Jpg': imgCasal1240Jpg,
-    'imgCasal984Jpg': imgCasal984Jpg,
-    'imgCasal728Jpg': imgCasal728Jpg,
-    'imgCasal440Jpg': imgCasal440Jpg,
-    'imgCasal1400WebP': imgCasal1400WebP,
-    'imgCasal1240WebP': imgCasal1240WebP,
-    'imgCasal984WebP': imgCasal984WebP,
-    'imgCasal728WebP': imgCasal728WebP,
-    'imgCasal440WebP': imgCasal440WebP,
-    'imgFogonsXeremell1400Jpg': imgFogonsXeremell1400Jpg,
-    'imgFogonsXeremell1240Jpg': imgFogonsXeremell1240Jpg,
-    'imgFogonsXeremell984Jpg': imgFogonsXeremell984Jpg,
-    'imgFogonsXeremell728Jpg': imgFogonsXeremell728Jpg,
-    'imgFogonsXeremell440Jpg': imgFogonsXeremell440Jpg,
-    'imgFogonsXeremell1400WebP': imgFogonsXeremell1400WebP,
-    'imgFogonsXeremell1240WebP': imgFogonsXeremell1240WebP,
-    'imgFogonsXeremell984WebP': imgFogonsXeremell984WebP,
-    'imgFogonsXeremell728WebP': imgFogonsXeremell728WebP,
-    'imgFogonsXeremell440WebP': imgFogonsXeremell440WebP,
-    'imgDinamic1400Jpg': imgDinamic1400Jpg,
-    'imgDinamic1240Jpg': imgDinamic1240Jpg,
-    'imgDinamic984Jpg': imgDinamic984Jpg,
-    'imgDinamic728Jpg': imgDinamic728Jpg,
-    'imgDinamic440Jpg': imgDinamic440Jpg,
-    'imgDinamic1400WebP': imgDinamic1400WebP,
-    'imgDinamic1240WebP': imgDinamic1240WebP,
-    'imgDinamic984WebP': imgDinamic984WebP,
-    'imgDinamic728WebP': imgDinamic728WebP,
-    'imgDinamic440WebP': imgDinamic440WebP,
-    'imgDolmen1400Jpg': imgDolmen1400Jpg,
-    'imgDolmen1240Jpg': imgDolmen1240Jpg,
-    'imgDolmen984Jpg': imgDolmen984Jpg,
-    'imgDolmen728Jpg': imgDolmen728Jpg,
-    'imgDolmen440Jpg': imgDolmen440Jpg,
-    'imgDolmen1400WebP': imgDolmen1400WebP,
-    'imgDolmen1240WebP': imgDolmen1240WebP,
-    'imgDolmen984WebP': imgDolmen984WebP,
-    'imgDolmen728WebP': imgDolmen728WebP,
-    'imgDolmen440WebP': imgDolmen440WebP,
-    'imgPoliesportiu1400Jpg': imgPoliesportiu1400Jpg,
-    'imgPoliesportiu1240Jpg': imgPoliesportiu1240Jpg,
-    'imgPoliesportiu984Jpg': imgPoliesportiu984Jpg,
-    'imgPoliesportiu728Jpg': imgPoliesportiu728Jpg,
-    'imgPoliesportiu440Jpg': imgPoliesportiu440Jpg,
-    'imgPoliesportiu1400WebP': imgPoliesportiu1400WebP,
-    'imgPoliesportiu1240WebP': imgPoliesportiu1240WebP,
-    'imgPoliesportiu984WebP': imgPoliesportiu984WebP,
-    'imgPoliesportiu728WebP': imgPoliesportiu728WebP,
-    'imgPoliesportiu440WebP': imgPoliesportiu440WebP,
-    'imgOlzinelles1400Jpg': imgOlzinelles1400Jpg,
-    'imgOlzinelles1240Jpg': imgOlzinelles1240Jpg,
-    'imgOlzinelles984Jpg': imgOlzinelles984Jpg,
-    'imgOlzinelles728Jpg': imgOlzinelles728Jpg,
-    'imgOlzinelles440Jpg': imgOlzinelles440Jpg,
-    'imgOlzinelles1400WebP': imgOlzinelles1400WebP,
-    'imgOlzinelles1240WebP': imgOlzinelles1240WebP,
-    'imgOlzinelles984WebP': imgOlzinelles984WebP,
-    'imgOlzinelles728WebP': imgOlzinelles728WebP,
-    'imgOlzinelles440WebP': imgOlzinelles440WebP,
-    'imgMuseu1400Jpg': imgMuseu1400Jpg,
-    'imgMuseu1240Jpg': imgMuseu1240Jpg,
-    'imgMuseu984Jpg': imgMuseu984Jpg,
-    'imgMuseu728Jpg': imgMuseu728Jpg,
-    'imgMuseu440Jpg': imgMuseu440Jpg,
-    'imgMuseu1400WebP': imgMuseu1400WebP,
-    'imgMuseu1240WebP': imgMuseu1240WebP,
-    'imgMuseu984WebP': imgMuseu984WebP,
-    'imgMuseu728WebP': imgMuseu728WebP,
-    'imgMuseu440WebP': imgMuseu440WebP,
-    'imgTio1400Jpg': imgTio1400Jpg,
-    'imgTio1240Jpg': imgTio1240Jpg,
-    'imgTio984Jpg': imgTio984Jpg,
-    'imgTio728Jpg': imgTio728Jpg,
-    'imgTio440Jpg': imgTio440Jpg,
-    'imgTio1400WebP': imgTio1400WebP,
-    'imgTio1240WebP': imgTio1240WebP,
-    'imgTio984WebP': imgTio984WebP,
-    'imgTio728WebP': imgTio728WebP,
-    'imgTio440WebP': imgTio440WebP,
-    'imgVallgorguina1400Jpg': imgVallgorguina1400Jpg,
-    'imgVallgorguina1240Jpg': imgVallgorguina1240Jpg,
-    'imgVallgorguina984Jpg': imgVallgorguina984Jpg,
-    'imgVallgorguina728Jpg': imgVallgorguina728Jpg,
-    'imgVallgorguina440Jpg': imgVallgorguina440Jpg,
-    'imgVallgorguina1400WebP': imgVallgorguina1400WebP,
-    'imgVallgorguina1240WebP': imgVallgorguina1240WebP,
-    'imgVallgorguina984WebP': imgVallgorguina984WebP,
-    'imgVallgorguina728WebP': imgVallgorguina728WebP,
-    'imgVallgorguina440WebP': imgVallgorguina440WebP,
-    'imgTourdera1400Jpg': imgTourdera1400Jpg,
-    'imgTourdera1240Jpg': imgTourdera1240Jpg,
-    'imgTourdera984Jpg': imgTourdera984Jpg,
-    'imgTourdera728Jpg': imgTourdera728Jpg,
-    'imgTourdera440Jpg': imgTourdera440Jpg,
-    'imgTourdera1400WebP': imgTourdera1400WebP,
-    'imgTourdera1240WebP': imgTourdera1240WebP,
-    'imgTourdera984WebP': imgTourdera984WebP,
-    'imgTourdera728WebP': imgTourdera728WebP,
-    'imgTourdera440WebP': imgTourdera440WebP
+    'imgPagesia1400Jpg': require('../assets/img-pagesia-1400.jpg'),
+    'imgPagesia1240Jpg': require('../assets/img-pagesia-1240.jpg'),
+    'imgPagesia984Jpg': require('../assets/img-pagesia-984.jpg'),
+    'imgPagesia728Jpg': require('../assets/img-pagesia-728.jpg'),
+    'imgPagesia440Jpg': require('../assets/img-pagesia-440.jpg'),
+    'imgPagesia1400WebP': require('../assets/img-pagesia-1400.webp'),
+    'imgPagesia1240WebP': require('../assets/img-pagesia-1240.webp'),
+    'imgPagesia984WebP': require('../assets/img-pagesia-984.webp'),
+    'imgPagesia728WebP': require('../assets/img-pagesia-728.webp'),
+    'imgPagesia440WebP': require('../assets/img-pagesia-440.webp'),
+    'imgFontMoreu1400Jpg': require('../assets/img-font-moreu-1400.jpg'),
+    'imgFontMoreu1240Jpg': require('../assets/img-font-moreu-1240.jpg'),
+    'imgFontMoreu984Jpg': require('../assets/img-font-moreu-984.jpg'),
+    'imgFontMoreu728Jpg': require('../assets/img-font-moreu-728.jpg'),
+    'imgFontMoreu440Jpg': require('../assets/img-font-moreu-440.jpg'),
+    'imgFontMoreu1400WebP': require('../assets/img-font-moreu-1400.webp'),
+    'imgFontMoreu1240WebP': require('../assets/img-font-moreu-1240.webp'),
+    'imgFontMoreu984WebP': require('../assets/img-font-moreu-984.webp'),
+    'imgFontMoreu728WebP': require('../assets/img-font-moreu-728.webp'),
+    'imgFontMoreu440WebP': require('../assets/img-font-moreu-440.webp'),
+    'imgAndreu1400Jpg': require('../assets/img-andreu-1400.jpg'),
+    'imgAndreu1240Jpg': require('../assets/img-andreu-1240.jpg'),
+    'imgAndreu984Jpg': require('../assets/img-andreu-984.jpg'),
+    'imgAndreu728Jpg': require('../assets/img-andreu-728.jpg'),
+    'imgAndreu440Jpg': require('../assets/img-andreu-440.jpg'),
+    'imgAndreu1400WebP': require('../assets/img-andreu-1400.webp'),
+    'imgAndreu1240WebP': require('../assets/img-andreu-1240.webp'),
+    'imgAndreu984WebP': require('../assets/img-andreu-984.webp'),
+    'imgAndreu728WebP': require('../assets/img-andreu-728.webp'),
+    'imgAndreu440WebP': require('../assets/img-andreu-440.webp'),
+    'imgBaronia1400Jpg': require('../assets/img-baronia-1400.jpg'),
+    'imgBaronia1240Jpg': require('../assets/img-baronia-1240.jpg'),
+    'imgBaronia984Jpg': require('../assets/img-baronia-984.jpg'),
+    'imgBaronia728Jpg': require('../assets/img-baronia-728.jpg'),
+    'imgBaronia440Jpg': require('../assets/img-baronia-440.jpg'),
+    'imgBaronia1400WebP': require('../assets/img-baronia-1400.webp'),
+    'imgBaronia1240WebP': require('../assets/img-baronia-1240.webp'),
+    'imgBaronia984WebP': require('../assets/img-baronia-984.webp'),
+    'imgBaronia728WebP': require('../assets/img-baronia-728.webp'),
+    'imgBaronia440WebP': require('../assets/img-baronia-440.webp'),
+    'imgCanVirgili1400Jpg': require('../assets/img-can-virgili-1400.jpg'),
+    'imgCanVirgili1240Jpg': require('../assets/img-can-virgili-1240.jpg'),
+    'imgCanVirgili984Jpg': require('../assets/img-can-virgili-984.jpg'),
+    'imgCanVirgili728Jpg': require('../assets/img-can-virgili-728.jpg'),
+    'imgCanVirgili440Jpg': require('../assets/img-can-virgili-440.jpg'),
+    'imgCanVirgili1400WebP': require('../assets/img-can-virgili-1400.webp'),
+    'imgCanVirgili1240WebP': require('../assets/img-can-virgili-1240.webp'),
+    'imgCanVirgili984WebP': require('../assets/img-can-virgili-984.webp'),
+    'imgCanVirgili728WebP': require('../assets/img-can-virgili-728.webp'),
+    'imgCanVirgili440WebP': require('../assets/img-can-virgili-440.webp'),
+    'imgCasal1400Jpg': require('../assets/img-casal-1400.jpg'),
+    'imgCasal1240Jpg': require('../assets/img-casal-1240.jpg'),
+    'imgCasal984Jpg': require('../assets/img-casal-984.jpg'),
+    'imgCasal728Jpg': require('../assets/img-casal-728.jpg'),
+    'imgCasal440Jpg': require('../assets/img-casal-440.jpg'),
+    'imgCasal1400WebP': require('../assets/img-casal-1400.webp'),
+    'imgCasal1240WebP': require('../assets/img-casal-1240.webp'),
+    'imgCasal984WebP': require('../assets/img-casal-984.webp'),
+    'imgCasal728WebP': require('../assets/img-casal-728.webp'),
+    'imgCasal440WebP': require('../assets/img-casal-440.webp'),
+    'imgFogonsXeremell1400Jpg': require('../assets/img-xeremell-1400.jpg'),
+    'imgFogonsXeremell1240Jpg': require('../assets/img-xeremell-1240.jpg'),
+    'imgFogonsXeremell984Jpg': require('../assets/img-xeremell-984.jpg'),
+    'imgFogonsXeremell728Jpg': require('../assets/img-xeremell-728.jpg'),
+    'imgFogonsXeremell440Jpg': require('../assets/img-xeremell-440.jpg'),
+    'imgFogonsXeremell1400WebP': require('../assets/img-xeremell-1400.webp'),
+    'imgFogonsXeremell1240WebP': require('../assets/img-xeremell-1240.webp'),
+    'imgFogonsXeremell984WebP': require('../assets/img-xeremell-984.webp'),
+    'imgFogonsXeremell728WebP': require('../assets/img-xeremell-728.webp'),
+    'imgFogonsXeremell440WebP': require('../assets/img-xeremell-440.webp'),
+    'imgDinamic1400Jpg': require('../assets/img-dinamic-1400.jpg'),
+    'imgDinamic1240Jpg': require('../assets/img-dinamic-1240.jpg'),
+    'imgDinamic984Jpg': require('../assets/img-dinamic-984.jpg'),
+    'imgDinamic728Jpg': require('../assets/img-dinamic-728.jpg'),
+    'imgDinamic440Jpg': require('../assets/img-dinamic-440.jpg'),
+    'imgDinamic1400WebP': require('../assets/img-dinamic-1400.webp'),
+    'imgDinamic1240WebP': require('../assets/img-dinamic-1240.webp'),
+    'imgDinamic984WebP': require('../assets/img-dinamic-984.webp'),
+    'imgDinamic728WebP': require('../assets/img-dinamic-728.webp'),
+    'imgDinamic440WebP': require('../assets/img-dinamic-440.webp'),
+    'imgDolmen1400Jpg': require('../assets/img-dolmen-1400.jpg'),
+    'imgDolmen1240Jpg': require('../assets/img-dolmen-1240.jpg'),
+    'imgDolmen984Jpg': require('../assets/img-dolmen-984.jpg'),
+    'imgDolmen728Jpg': require('../assets/img-dolmen-728.jpg'),
+    'imgDolmen440Jpg': require('../assets/img-dolmen-440.jpg'),
+    'imgDolmen1400WebP': require('../assets/img-dolmen-1400.webp'),
+    'imgDolmen1240WebP': require('../assets/img-dolmen-1240.webp'),
+    'imgDolmen984WebP': require('../assets/img-dolmen-984.webp'),
+    'imgDolmen728WebP': require('../assets/img-dolmen-728.webp'),
+    'imgDolmen440WebP': require('../assets/img-dolmen-440.webp'),
+    'imgPoliesportiu1400Jpg': require('../assets/img-poliesportiu-1400.jpg'),
+    'imgPoliesportiu1240Jpg': require('../assets/img-poliesportiu-1240.jpg'),
+    'imgPoliesportiu984Jpg': require('../assets/img-poliesportiu-984.jpg'),
+    'imgPoliesportiu728Jpg': require('../assets/img-poliesportiu-728.jpg'),
+    'imgPoliesportiu440Jpg': require('../assets/img-poliesportiu-440.jpg'),
+    'imgPoliesportiu1400WebP': require('../assets/img-poliesportiu-1400.webp'),
+    'imgPoliesportiu1240WebP': require('../assets/img-poliesportiu-1240.webp'),
+    'imgPoliesportiu984WebP': require('../assets/img-poliesportiu-984.webp'),
+    'imgPoliesportiu728WebP': require('../assets/img-poliesportiu-728.webp'),
+    'imgPoliesportiu440WebP': require('../assets/img-poliesportiu-440.webp'),
+    'imgOlzinelles1400Jpg': require('../assets/img-olzinelles-1400.jpg'),
+    'imgOlzinelles1240Jpg': require('../assets/img-olzinelles-1240.jpg'),
+    'imgOlzinelles984Jpg': require('../assets/img-olzinelles-984.jpg'),
+    'imgOlzinelles728Jpg': require('../assets/img-olzinelles-728.jpg'),
+    'imgOlzinelles440Jpg': require('../assets/img-olzinelles-440.jpg'),
+    'imgOlzinelles1400WebP': require('../assets/img-olzinelles-1400.webp'),
+    'imgOlzinelles1240WebP': require('../assets/img-olzinelles-1240.webp'),
+    'imgOlzinelles984WebP': require('../assets/img-olzinelles-984.webp'),
+    'imgOlzinelles728WebP': require('../assets/img-olzinelles-728.webp'),
+    'imgOlzinelles440WebP': require('../assets/img-olzinelles-440.webp'),
+    'imgMuseu1400Jpg': require('../assets/img-museu-1400.jpg'),
+    'imgMuseu1240Jpg': require('../assets/img-museu-1240.jpg'),
+    'imgMuseu984Jpg': require('../assets/img-museu-984.jpg'),
+    'imgMuseu728Jpg': require('../assets/img-museu-728.jpg'),
+    'imgMuseu440Jpg': require('../assets/img-museu-440.jpg'),
+    'imgMuseu1400WebP': require('../assets/img-museu-1400.webp'),
+    'imgMuseu1240WebP': require('../assets/img-museu-1240.webp'),
+    'imgMuseu984WebP': require('../assets/img-museu-984.webp'),
+    'imgMuseu728WebP': require('../assets/img-museu-728.webp'),
+    'imgMuseu440WebP': require('../assets/img-museu-440.webp'),
+    'imgTio1400Jpg': require('../assets/img-tio-1400.jpg'),
+    'imgTio1240Jpg': require('../assets/img-tio-1240.jpg'),
+    'imgTio984Jpg': require('../assets/img-tio-984.jpg'),
+    'imgTio728Jpg': require('../assets/img-tio-728.jpg'),
+    'imgTio440Jpg': require('../assets/img-tio-440.jpg'),
+    'imgTio1400WebP': require('../assets/img-tio-1400.webp'),
+    'imgTio1240WebP': require('../assets/img-tio-1240.webp'),
+    'imgTio984WebP': require('../assets/img-tio-984.webp'),
+    'imgTio728WebP': require('../assets/img-tio-728.webp'),
+    'imgTio440WebP': require('../assets/img-tio-440.webp'),
+    'imgVallgorguina1400Jpg': require('../assets/img-vallgorguina-1400.jpg'),
+    'imgVallgorguina1240Jpg': require('../assets/img-vallgorguina-1240.jpg'),
+    'imgVallgorguina984Jpg': require('../assets/img-vallgorguina-984.jpg'),
+    'imgVallgorguina728Jpg': require('../assets/img-vallgorguina-728.jpg'),
+    'imgVallgorguina440Jpg': require('../assets/img-vallgorguina-440.jpg'),
+    'imgVallgorguina1400WebP': require('../assets/img-vallgorguina-1400.webp'),
+    'imgVallgorguina1240WebP': require('../assets/img-vallgorguina-1240.webp'),
+    'imgVallgorguina984WebP': require('../assets/img-vallgorguina-984.webp'),
+    'imgVallgorguina728WebP': require('../assets/img-vallgorguina-728.webp'),
+    'imgVallgorguina440WebP': require('../assets/img-vallgorguina-440.webp'),
+    'imgTourdera1400Jpg': require('../assets/img-tourdera-1400.jpg'),
+    'imgTourdera1240Jpg': require('../assets/img-tourdera-1240.jpg'),
+    'imgTourdera984Jpg': require('../assets/img-tourdera-984.jpg'),
+    'imgTourdera728Jpg': require('../assets/img-tourdera-728.jpg'),
+    'imgTourdera440Jpg': require('../assets/img-tourdera-440.jpg'),
+    'imgTourdera1400WebP': require('../assets/img-tourdera-1400.webp'),
+    'imgTourdera1240WebP': require('../assets/img-tourdera-1240.webp'),
+    'imgTourdera984WebP': require('../assets/img-tourdera-984.webp'),
+    'imgTourdera728WebP': require('../assets/img-tourdera-728.webp'),
+    'imgTourdera440WebP': require('../assets/img-tourdera-440.webp')
 }
 
 function showItems(categoryId) {
