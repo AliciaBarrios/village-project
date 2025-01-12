@@ -67,8 +67,8 @@ body {
 }
 
 button {
-  background: $secondary-color-light;
-  color: $secondary-color-dark;
+  background: $secondary-color-dark;
+  color: $secondary-color-light;
   border: none;
   position: relative;
   padding: 1rem 2rem;
@@ -81,8 +81,8 @@ button {
   text-align: center;
 
   &:hover {
-    background: $secondary-color-dark;
-    color: $secondary-color-light;
+    background: $secondary-color-light;
+    color: $secondary-color-dark;
   }
 
   &::before,
