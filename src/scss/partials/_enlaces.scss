@@ -1,11 +1,15 @@
 .enlaces {
     .container {
+        width: 100%;
         max-width: 100vw;
         box-sizing: border-box;
         ul {
-            max-width: 100%;
+            padding: 0;
+            margin: 0;
             li {
                 margin-bottom: 1rem;
+                display: flex;
+                flex-direction: column;
                 .title {
                     font-weight: bolder;
                     font-size: 1.4rem;
@@ -14,6 +18,9 @@
                 .link {
                     font-size: 1.2rem;
                     max-width: 100%;
+                    word-wrap: break-word;
+                    overflow-wrap: break-word;
+                    white-space: normal;
                 }
                 .link:hover {
                     color: $secondary-color-dark;
