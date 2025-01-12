@@ -1,6 +1,6 @@
 .enlaces {
     .container {
-        max-width: 95vw;
+        max-width: 100vw;
         box-sizing: border-box;
         ul {
             max-width: 100%;
@@ -13,6 +13,7 @@
                 .description,
                 .link {
                     font-size: 1.2rem;
+                    max-width: 100%;
                 }
                 .link:hover {
                     color: $secondary-color-dark;
