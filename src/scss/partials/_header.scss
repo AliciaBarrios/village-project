@@ -30,13 +30,22 @@
           text-decoration: none;
           color: $primary-color-light;
 
+          display: inline-block;
+          width: 140px;
+          text-align: center;
+          padding: 0.5rem;
+          border-radius: 10px;
+
           &:hover {
-              color: $secondary-color-dark;
+            color: $primary-color-dark;
+            background-color: $primary-color-light;
           }
         }
 
         .active-link {
-          color: $secondary-color-dark;
+          color: $primary-color-dark;
+          background-color: $primary-color-light;
+          font-weight: bolder;
         }
       }
     }
@@ -49,7 +58,8 @@
       display: flex;
       flex-direction: column;
       h1 {
-        font-size: 1.2rem;
+        font-size: 1.3rem;
+        font-weight: bolder;
       }
     }
 
@@ -58,6 +68,11 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
+        li {
+          .nav-link {
+            font-size: 1.2rem;
+          }
+        }
       }
     }
   }

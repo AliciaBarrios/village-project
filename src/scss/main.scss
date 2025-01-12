@@ -67,12 +67,13 @@ body {
 }
 
 button {
-  background: $secondary-color-dark;
-  color: $secondary-color-light;
+  background: $secondary-color-light;
+  color: $secondary-color-dark;
   border: none;
   position: relative;
   padding: 1rem 2rem;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
+  font-weight: bolder;
   cursor: pointer;
   transition: 800ms ease all;
   outline: none;
@@ -80,8 +81,8 @@ button {
   text-align: center;
 
   &:hover {
-    background: $secondary-color-light;
-    color: $secondary-color-dark;
+    background: $secondary-color-dark;
+    color: $secondary-color-light;
   }
 
   &::before,
@@ -92,7 +93,7 @@ button {
     right: 0;
     height: 2px;
     width: 0;
-    background: $secondary-color-dark;
+    background: $secondary-color-light;
     transition: 400ms ease all;
   }
 
@@ -110,17 +111,6 @@ button {
   }
 }
 
-.nav-link {
-  text-decoration: none;
-  color: $primary-color-dark;
 
-  &:hover {
-      color: $secondary-color-dark;
-  }
-}
-
-.active-link {
-  color: $secondary-color-dark;
-}
 
 
