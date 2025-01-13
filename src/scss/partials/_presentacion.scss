@@ -11,7 +11,7 @@
             stroke-width: 1px; 
             stroke-dasharray: 700; /* Longitud total del trazo sin espacios*/
             stroke-dashoffset: 700; /* Para ocultar el 100% del trazo este valor debe ser igual al anterior */
-            font-size: 2.5rem;
+            font-size: 3.5rem;
         }
         
         .text.visible {
@@ -38,9 +38,12 @@
                 }
             }
     
-            .text {
+            .paragraph {
                 width: 100%;
                 margin: 0 1.25rem;
+                h2 {
+                    font-size: 1.5rem;
+                }
                 p {
                     margin: 1rem 0;
                 }
