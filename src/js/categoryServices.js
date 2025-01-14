@@ -270,11 +270,11 @@ function loadInterestPoint(interestPoint) {
     />
     `;
     
-    preloadImage(`${images[interestPoint.img440WebP]}`); 
-    preloadImage(`${images[interestPoint.img728WebP]}`); 
-    preloadImage(`${images[interestPoint.img984WebP]}`); 
-    preloadImage(`${images[interestPoint.img1240WebP]}`); 
-    preloadImage(`${images[interestPoint.img1400WebP]}`); 
+    preloadImage(`${images[interestPoint.img440WebP]}`, "480px"); 
+    preloadImage(`${images[interestPoint.img728WebP]}`, "728px"); 
+    preloadImage(`${images[interestPoint.img984WebP]}`, "984px"); 
+    preloadImage(`${images[interestPoint.img1240WebP]}`, "1240px"); 
+    preloadImage(`${images[interestPoint.img1400WebP]}`, "4000px"); 
 
     document.getElementById('author').textContent = interestPoint.authorImg;
     document.getElementById('direction').innerHTML = `<p><i class="fas fa-map-marker-alt"></i> ${interestPoint.direction}</p>`;
@@ -290,11 +290,12 @@ function loadInterestPoint(interestPoint) {
     }
 }
 
-function preloadImage(url) {
+function preloadImage(url, media) {
     const link = document.createElement('link');
     link.rel = 'preload';
     link.href = url;
     link.as = 'image';
+    link.media = `(max-width: ${media})`;
     document.head.appendChild(link);
 }
 
