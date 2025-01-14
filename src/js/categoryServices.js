@@ -270,11 +270,11 @@ function loadInterestPoint(interestPoint) {
     />
     `;
     
-    preloadImage(`${images[interestPoint.img440Jpg]}`); 
+    preloadImage(`${images[interestPoint.img440WebP]}`); 
     preloadImage(`${images[interestPoint.img728WebP]}`); 
-    preloadImage(`${images[interestPoint.img984Jpg]}`); 
-    preloadImage(`${images[interestPoint.img1240Jpg]}`); 
-    preloadImage(`${images[interestPoint.img1400Jpg]}`); 
+    preloadImage(`${images[interestPoint.img984WebP]}`); 
+    preloadImage(`${images[interestPoint.img1240WebP]}`); 
+    preloadImage(`${images[interestPoint.img1400WebP]}`); 
 
     document.getElementById('author').textContent = interestPoint.authorImg;
     document.getElementById('direction').innerHTML = `<p><i class="fas fa-map-marker-alt"></i> ${interestPoint.direction}</p>`;
