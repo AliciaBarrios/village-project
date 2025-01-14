@@ -269,6 +269,13 @@ function loadInterestPoint(interestPoint) {
         1400px"
     />
     `;
+    
+    preloadImage(`https://vallgorguina-project.netlify.app/${images[interestPoint.img440Jpg]}`); 
+    preloadImage(`https://vallgorguina-project.netlify.app/${images[interestPoint.img728WebP]}`); 
+    preloadImage(`https://vallgorguina-project.netlify.app/${images[interestPoint.img984Jpg]}`); 
+    preloadImage(`https://vallgorguina-project.netlify.app/${images[interestPoint.img1240Jpg]}`); 
+    preloadImage(`https://vallgorguina-project.netlify.app/${images[interestPoint.img1400Jpg]}`); 
+
     document.getElementById('author').textContent = interestPoint.authorImg;
     document.getElementById('direction').innerHTML = `<p><i class="fas fa-map-marker-alt"></i> ${interestPoint.direction}</p>`;
 
@@ -281,6 +288,14 @@ function loadInterestPoint(interestPoint) {
         paragraphElement.textContent = paragraph;
         descriptionContainer.appendChild(paragraphElement);
     }
+}
+
+function preloadImage(url) {
+    const link = document.createElement('link');
+    link.rel = 'preload';
+    link.href = url;
+    link.as = 'image';
+    document.head.appendChild(link);
 }
 
 function loadInterestPointByCategory(interestPoint, categoryUrl) {
