@@ -254,6 +254,7 @@ function loadInterestPoint(interestPoint) {
     <img 
         src="${images[interestPoint.img1240Jpg]}" 
         alt="${interestPoint.alt}"
+        fetchpriority="high"
         srcset="
         ${images[interestPoint.img440Jpg]} 440w,
         ${images[interestPoint.img728Jpg]} 728w,

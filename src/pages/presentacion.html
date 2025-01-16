@@ -22,7 +22,46 @@
                 </text>
             </svg>
             <div class="display-section">
+                <figure class="multimedia">
+                    <picture>
+                        <!-- Versión WebP para navegadores modernos -->
+                        <source 
+                            srcset="
+                            ./../assets/img-historia-440.webp 440w,
+                            ./../assets/img-historia-728.webp 728w,
+                            ./../assets/img-historia-960.webp 960w,
+                            ./../assets/img-historia-1200.webp 1200w
+                            " 
+                            sizes="
+                            (max-width: 480px) 440px,
+                            (max-width: 768px) 728px,
+                            (max-width: 984px) 960px,
+                            1200px"
                 
+                            type="image/webp" 
+                        />
+                        <!-- Fallback JPG para navegadores antiguos -->
+                        <img 
+                            src="./../assets/img-historia-728.jpg" 
+                            alt="Imatge Ajuntament Vallgorguina"
+                            importance="high" 
+                            decoding="async"
+                            fetchpriority="high"
+                            srcset="
+                            ./../assets/img-historia-440.jpg 440w,
+                            ./../assets/img-historia-728.jpg 728w,
+                            ./../assets/img-historia-960.jpg 960w,
+                            ./../assets/img-historia-1200.jpg 1200w
+                            " 
+                            sizes="
+                            (max-width: 480px) 440px,
+                            (max-width: 768px) 728px,
+                            (max-width: 984px) 960px,
+                            1200px"
+                        />
+                    </picture>
+                    <figcaption>Font Imatge: Associació Catala de Municipis</figcaption>
+                </figure>
                 <div class="paragraph">
                     <p>
                         El nom de Vallgorguina el trobem citat per primer cop al s. X, en un document del cartulari de Sant Cugat. Però els primers assentaments de població 
@@ -46,47 +85,6 @@
                         esdevingué centre d'estiueig i es van construir les urbanitzacions Can Puigdemir, Canadà Park, Baronia, Collsacreu.
                     </p>
                 </div>
-
-                <figure class="multimedia">
-                    <picture>
-                        <!-- Versión WebP para navegadores modernos -->
-                        <source 
-                            srcset="
-                            ./../assets/img-historia-440.webp 440w,
-                            ./../assets/img-historia-728.webp 728w,
-                            ./../assets/img-historia-960.webp 960w,
-                            ./../assets/img-historia-1200.webp 1200w
-                            " 
-                            sizes="
-                            (max-width: 480px) 440px,
-                            (max-width: 768px) 728px,
-                            (max-width: 984px) 960px,
-                            1200px"
-                
-                            type="image/webp" 
-                        />
-                        <!-- Fallback JPG para navegadores antiguos -->
-                        <img 
-                            src="./../assets/img-historia-728.jpg" 
-                            alt="Imatge Ajuntament Vallgorguina"
-                            loading="lazy"
-                            importance="high" 
-                            decoding="async"
-                            srcset="
-                            ./../assets/img-historia-440.jpg 440w,
-                            ./../assets/img-historia-728.jpg 728w,
-                            ./../assets/img-historia-960.jpg 960w,
-                            ./../assets/img-historia-1200.jpg 1200w
-                            " 
-                            sizes="
-                            (max-width: 480px) 440px,
-                            (max-width: 768px) 728px,
-                            (max-width: 984px) 960px,
-                            1200px"
-                        />
-                    </picture>
-                    <figcaption>Font Imatge: Associació Catala de Municipis</figcaption>
-                </figure>
             </div>
         </section>
         <section>
