@@ -231,6 +231,12 @@ function loadInterestPoint(interestPoint) {
         <a href="./categorias.html" class="nav-link">Categorías</a> > <a href="#" class="nav-link active-link">${interestPoint.title}</a>
     `;
     document.getElementById('title').textContent = interestPoint.title;
+    preloadImg(images[interestPoint.img440WebP], "480px");
+    preloadImg(images[interestPoint.img728WebP], "768px");
+    preloadImg(images[interestPoint.img984WebP], "1024px");
+    preloadImg(images[interestPoint.img1240WebP], "1280px");
+    preloadImg(images[interestPoint.img1400WebP], "2400px");
+
     document.getElementById('img').innerHTML = `
     <!-- Versión WebP para navegadores modernos -->
     <source 
@@ -255,6 +261,10 @@ function loadInterestPoint(interestPoint) {
         src="${images[interestPoint.img1240Jpg]}" 
         alt="${interestPoint.alt}"
         fetchpriority="high"
+        width="1200px"
+        height="1200px"
+        max-width="100%"
+        max-height="auto"
         srcset="
         ${images[interestPoint.img440Jpg]} 440w,
         ${images[interestPoint.img728Jpg]} 728w,
@@ -283,6 +293,18 @@ function loadInterestPoint(interestPoint) {
         paragraphElement.textContent = paragraph;
         descriptionContainer.appendChild(paragraphElement);
     }
+}
+
+function preloadImg(imageUrl, media) {
+    const link = document.createElement('link');
+    link.rel = 'preload';
+    link.as = 'image';
+    link.href = imageUrl;
+    if (media) {
+        link.media = `(max-width: ${media})`;
+    }
+
+    document.head.appendChild(link);
 }
 function loadInterestPointByCategory(interestPoint, categoryUrl) {
     // Añadimos detalles según categría
